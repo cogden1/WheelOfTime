@@ -19,6 +19,9 @@ public class ModItems {
     public static final RegistryObject<Item> TIN = ITEMS.register("tin",
             () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
 
+    public static final RegistryObject<Item> STORAGE = ITEMS.register("storage",
+            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);
