@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "S#S",
+    "SSS"
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:amethyst"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:amethyst_ore"
+  }
+}

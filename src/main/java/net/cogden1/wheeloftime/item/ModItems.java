@@ -14,13 +14,16 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, WheelOfTime.MOD_ID);
 
     public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst",
-            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> TIN = ITEMS.register("tin",
-            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> STORAGE = ITEMS.register("storage",
-            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> TESLANIUM = ITEMS.register("teslanium",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static void register(IEventBus eventBus)
     {

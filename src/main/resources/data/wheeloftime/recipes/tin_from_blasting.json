@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wheeloftime:tin_ore"
+  },
+  "result": "wheeloftime:tin",
+  "experience": 0.25,
+  "cookingtime": 100
+}

@@ -1,5 +1,10 @@
 {
   "item.wheeloftime.amethyst": "Amethyst",
   "item.wheeloftime.tin": "Tin",
-  "item.wheeloftime.storage": "Storage Component"
+  "item.wheeloftime.storage": "Storage Component",
+  "item.wheeloftime.teslanium": "Teslanium",
+  "block.wheeloftime.amethyst_ore": "Amethyst Ore",
+  "block.wheeloftime.tin_ore": "Tin Ore",
+  "itemGroup.wheelOfTimeTab": "Wheel of Time"
+
 }
