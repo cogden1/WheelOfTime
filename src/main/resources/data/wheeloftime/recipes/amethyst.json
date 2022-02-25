@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wheeloftime:amethyst_ore"
+  },
+  "result": {
+    "item": "wheeloftime:amethyst",
+    "count": 2
+  },
+  "experience": 0.25,
+  "cookingtime": 200
+}

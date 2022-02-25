@@ -2,9 +2,13 @@
   "item.wheeloftime.amethyst": "Amethyst",
   "item.wheeloftime.tin": "Tin",
   "item.wheeloftime.storage": "Storage Component",
+  "item.wheeloftime.battery": "Battery Component",
+  "item.wheeloftime.motor": "Motor Component",
   "item.wheeloftime.teslanium": "Teslanium",
   "block.wheeloftime.amethyst_ore": "Amethyst Ore",
+  "block.wheeloftime.amethyst_block": "Amethyst Block",
   "block.wheeloftime.tin_ore": "Tin Ore",
+  "block.wheeloftime.tin_block": "Tin Block",
   "itemGroup.wheelOfTimeTab": "Wheel of Time"
 
 }

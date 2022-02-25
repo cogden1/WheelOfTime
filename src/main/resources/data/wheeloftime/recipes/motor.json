@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "IRI",
+    " I "
+  ],
+  "key": {
+    "T": {
+      "item": "wheeloftime:teslanium"
+    },
+    "I": {
+      "item": "wheeloftime:tin"
+    },
+    "R": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:motor"
+  }
+}

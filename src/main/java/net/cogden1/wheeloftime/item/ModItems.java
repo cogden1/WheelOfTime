@@ -22,6 +22,12 @@ public class ModItems {
     public static final RegistryObject<Item> STORAGE = ITEMS.register("storage",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
+    public static final RegistryObject<Item> BATTERY = ITEMS.register("battery",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> MOTOR = ITEMS.register("motor",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
     public static final RegistryObject<Item> TESLANIUM = ITEMS.register("teslanium",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
