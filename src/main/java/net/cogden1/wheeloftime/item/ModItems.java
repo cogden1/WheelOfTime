@@ -15,6 +15,7 @@ import java.util.concurrent.locks.AbstractOwnableSynchronizer;
 
 public class ModItems {
 
+    //items
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, WheelOfTime.MOD_ID);
 
@@ -36,6 +37,9 @@ public class ModItems {
     public static final RegistryObject<Item> TESLANIUM = ITEMS.register("teslanium",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
+
+
+    //Callers
     public static final RegistryObject<Item> LIGHTNING_CALLER = ITEMS.register("lightning_caller",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
@@ -63,9 +67,26 @@ public class ModItems {
     public static final RegistryObject<Item> ABSORPTION_CALLER_X = ITEMS.register("absorption_caller_x",
             () -> new AbsorptionCallerX(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
+    public static final RegistryObject<Item> SPEED_CALLER = ITEMS.register("speed_caller",
+            () -> new SpeedCaller(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> SPEED_CALLER_1 = ITEMS.register("speed_caller_1",
+            () -> new SpeedCaller1(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> SPEED_CALLER_2 = ITEMS.register("speed_caller_2",
+            () -> new SpeedCaller2(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> SPEED_CALLER_X = ITEMS.register("speed_caller_x",
+            () -> new SpeedCallerX(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+
+
+    //Music Discs
     public static final RegistryObject<Item> RUMBLING_MUSIC_DISC = ITEMS.register("rumbling_music_disc",
             () -> new MusicDiscItem(1, () -> ModSoundEvents.RUMBLING.get(),
                     new Item.Properties().stacksTo(1).tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+
 
     public static void register(IEventBus eventBus)
     {

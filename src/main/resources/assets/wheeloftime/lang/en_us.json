@@ -20,6 +20,10 @@
   "item.wheeloftime.absorption_caller_1": "Absorption Caller II",
   "item.wheeloftime.absorption_caller_2": "Absorption Caller III",
   "item.wheeloftime.absorption_caller_x": "Absorption Caller X",
+  "item.wheeloftime.speed_caller": "Speed Caller",
+  "item.wheeloftime.speed_caller_1": "Speed Caller II",
+  "item.wheeloftime.speed_caller_2": "Speed Caller III",
+  "item.wheeloftime.speed_caller_x": "Speed Caller X",
   "itemGroup.wheelOfTimeTab": "Wheel of Time",
   "itemGroup.wheelOfTimeCallerTab": "WoT Callers"
 }
