@@ -24,6 +24,10 @@
   "item.wheeloftime.speed_caller_1": "Speed Caller II",
   "item.wheeloftime.speed_caller_2": "Speed Caller III",
   "item.wheeloftime.speed_caller_x": "Speed Caller X",
+  "item.wheeloftime.jump_caller": "Jump Caller",
+  "item.wheeloftime.jump_caller_1": "Jump Caller II",
+  "item.wheeloftime.jump_caller_2": "Jump Caller III",
+  "item.wheeloftime.jump_caller_x": "Jump Caller X",
   "itemGroup.wheelOfTimeTab": "Wheel of Time",
   "itemGroup.wheelOfTimeCallerTab": "WoT Callers"
 }

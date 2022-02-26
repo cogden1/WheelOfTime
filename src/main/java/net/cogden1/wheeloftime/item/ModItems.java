@@ -79,6 +79,17 @@ public class ModItems {
     public static final RegistryObject<Item> SPEED_CALLER_X = ITEMS.register("speed_caller_x",
             () -> new SpeedCallerX(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
+    public static final RegistryObject<Item> JUMP_CALLER = ITEMS.register("jump_caller",
+            () -> new JumpCaller(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> JUMP_CALLER_1 = ITEMS.register("jump_caller_1",
+            () -> new JumpCaller1(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> JUMP_CALLER_2 = ITEMS.register("jump_caller_2",
+            () -> new JumpCaller2(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> JUMP_CALLER_X = ITEMS.register("jump_caller_x",
+            () -> new JumpCallerX(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
 
     //Music Discs
