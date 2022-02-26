@@ -10,9 +10,9 @@ import net.minecraft.potion.Effects;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.world.World;
 
-public class SpeedCaller1 extends Item{
+public class FireCaller1 extends Item{
 
-    public SpeedCaller1(Properties properties) {
+    public FireCaller1(Properties properties) {
         super(properties);
     }
 
@@ -35,13 +35,12 @@ public class SpeedCaller1 extends Item{
     private void rightClickOnCertainBlockState(
             BlockState clickedBlock, ItemUseContext context, PlayerEntity playerEntity)
     {
-            giveEntitySpeed(playerEntity, 2200, 1);
+            giveEntityFireResist(playerEntity, 2200, 1);
     }
 
-    public static void giveEntitySpeed(PlayerEntity playerEntity,int tick,int level)
+    public static void giveEntityFireResist(PlayerEntity playerEntity,int tick,int level)
     {
-        playerEntity.addEffect(new EffectInstance(Effects.MOVEMENT_SPEED,tick,level));
-        playerEntity.addEffect(new EffectInstance(Effects.DOLPHINS_GRACE,tick));
+        playerEntity.addEffect(new EffectInstance(Effects.FIRE_RESISTANCE,tick,level));
     }
 
 }

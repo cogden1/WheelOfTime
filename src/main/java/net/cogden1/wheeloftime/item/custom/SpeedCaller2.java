@@ -41,6 +41,7 @@ public class SpeedCaller2 extends Item{
     public static void giveEntitySpeed(PlayerEntity playerEntity,int tick,int level)
     {
         playerEntity.addEffect(new EffectInstance(Effects.MOVEMENT_SPEED,tick,level));
+        playerEntity.addEffect(new EffectInstance(Effects.DOLPHINS_GRACE,tick));
     }
 
 }

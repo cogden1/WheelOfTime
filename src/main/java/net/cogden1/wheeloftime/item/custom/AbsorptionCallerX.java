@@ -41,6 +41,9 @@ public class AbsorptionCallerX extends Item{
     public static void giveEntityAbsorption(PlayerEntity playerEntity,int tick,int level)
     {
         playerEntity.addEffect(new EffectInstance(Effects.ABSORPTION,tick,level));
+        playerEntity.addEffect(new EffectInstance(Effects.REGENERATION,tick,level));
+        playerEntity.addEffect(new EffectInstance(Effects.HEAL,1,2));
+        playerEntity.addEffect(new EffectInstance(Effects.HEALTH_BOOST,tick,level));
     }
 
 }

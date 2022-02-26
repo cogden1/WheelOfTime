@@ -43,6 +43,7 @@ public class ModItems {
     public static final RegistryObject<Item> LIGHTNING_CALLER = ITEMS.register("lightning_caller",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
+    //
     public static final RegistryObject<Item> STRENGTH_CALLER = ITEMS.register("strength_caller",
             () -> new StrengthCaller(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
@@ -55,6 +56,7 @@ public class ModItems {
     public static final RegistryObject<Item> STRENGTH_CALLER_X = ITEMS.register("strength_caller_x",
             () -> new StrengthCallerX(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
+    //
     public static final RegistryObject<Item> ABSORPTION_CALLER = ITEMS.register("absorption_caller",
             () -> new AbsorptionCaller(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
@@ -67,6 +69,7 @@ public class ModItems {
     public static final RegistryObject<Item> ABSORPTION_CALLER_X = ITEMS.register("absorption_caller_x",
             () -> new AbsorptionCallerX(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
+    //
     public static final RegistryObject<Item> SPEED_CALLER = ITEMS.register("speed_caller",
             () -> new SpeedCaller(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
@@ -79,6 +82,7 @@ public class ModItems {
     public static final RegistryObject<Item> SPEED_CALLER_X = ITEMS.register("speed_caller_x",
             () -> new SpeedCallerX(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
+    //
     public static final RegistryObject<Item> JUMP_CALLER = ITEMS.register("jump_caller",
             () -> new JumpCaller(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
@@ -91,11 +95,23 @@ public class ModItems {
     public static final RegistryObject<Item> JUMP_CALLER_X = ITEMS.register("jump_caller_x",
             () -> new JumpCallerX(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
+    //
+    public static final RegistryObject<Item> FIRE_CALLER = ITEMS.register("fire_caller",
+            () -> new FireCaller(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> FIRE_CALLER_1 = ITEMS.register("fire_caller_1",
+            () -> new FireCaller1(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> FIRE_CALLER_2 = ITEMS.register("fire_caller_2",
+            () -> new FireCaller2(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> FIRE_CALLER_X = ITEMS.register("fire_caller_x",
+            () -> new FireCallerX(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
     //Music Discs
     public static final RegistryObject<Item> RUMBLING_MUSIC_DISC = ITEMS.register("rumbling_music_disc",
             () -> new MusicDiscItem(1, () -> ModSoundEvents.RUMBLING.get(),
-                    new Item.Properties().stacksTo(1).tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+                    new Item.Properties().stacksTo(1).tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
 
 

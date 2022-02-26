@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "TCT",
+    " T "
+  ],
+  "key": {
+    "T": {
+      "item": "wheeloftime:amethyst"
+    },
+    "C": {
+      "item": "wheeloftime:fire_caller_1"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:fire_caller_2"
+  }
+}
