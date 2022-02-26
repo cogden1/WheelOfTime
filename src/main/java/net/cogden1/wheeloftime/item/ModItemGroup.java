@@ -15,4 +15,15 @@ public class ModItemGroup {
         }
 
     };
+
+    public static final ItemGroup WHEELOFTIME_GROUP_CALLER = new ItemGroup("wheelOfTimeCallerTab") {
+
+        @Override
+
+        public ItemStack makeIcon()
+        {
+            return new ItemStack(ModItems.LIGHTNING_CALLER.get());
+        }
+
+    };
 }

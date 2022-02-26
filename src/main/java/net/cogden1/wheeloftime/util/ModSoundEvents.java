@@ -13,8 +13,6 @@ public class ModSoundEvents {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, WheelOfTime.MOD_ID);
 
-    public static final RegistryObject<SoundEvent> SMALL_EXPLOSION =
-            registerSoundEvent("small_explosion");
 
     public static final RegistryObject<SoundEvent> RUMBLING =
             registerSoundEvent("rumbling");

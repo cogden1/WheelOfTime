@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "TCT",
+    " T "
+  ],
+  "key": {
+    "T": {
+      "item": "wheeloftime:amethyst"
+    },
+    "C": {
+      "item": "wheeloftime:absorption_caller"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:absorption_caller_1"
+  }
+}

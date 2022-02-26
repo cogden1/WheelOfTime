@@ -1,5 +1,6 @@
 {
-  "item.wheeloftime.rumbling_music_disc": "The Rumbling - SiM",
+  "item.wheeloftime.rumbling_music_disc": "Music Disc",
+  "item.wheeloftime.rumbling_music_disc.desc": "The Rumbling - SiM",
   "item.wheeloftime.amethyst": "Amethyst",
   "item.wheeloftime.tin": "Tin",
   "item.wheeloftime.storage": "Storage Component",
@@ -10,6 +11,15 @@
   "block.wheeloftime.amethyst_block": "Amethyst Block",
   "block.wheeloftime.tin_ore": "Tin Ore",
   "block.wheeloftime.tin_block": "Tin Block",
-  "itemGroup.wheelOfTimeTab": "Wheel of Time"
-
+  "item.wheeloftime.lightning_caller": "Lightning Caller",
+  "item.wheeloftime.strength_caller": "Strength Caller",
+  "item.wheeloftime.strength_caller_1": "Strength Caller II",
+  "item.wheeloftime.strength_caller_2": "Strength Caller III",
+  "item.wheeloftime.strength_caller_x": "Strength Caller X",
+  "item.wheeloftime.absorption_caller": "Absorption Caller",
+  "item.wheeloftime.absorption_caller_1": "Absorption Caller II",
+  "item.wheeloftime.absorption_caller_2": "Absorption Caller III",
+  "item.wheeloftime.absorption_caller_x": "Absorption Caller X",
+  "itemGroup.wheelOfTimeTab": "Wheel of Time",
+  "itemGroup.wheelOfTimeCallerTab": "WoT Callers"
 }

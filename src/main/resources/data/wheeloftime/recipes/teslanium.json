@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "INI",
+    " I "
+  ],
+  "key": {
+    "T": {
+      "item": "wheeloftime:tin"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:teslanium",
+    "count": 2
+  }
+}
