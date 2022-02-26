@@ -2,6 +2,7 @@ package net.cogden1.wheeloftime;
 
 import net.cogden1.wheeloftime.block.ModBlocks;
 import net.cogden1.wheeloftime.item.ModItems;
+import net.cogden1.wheeloftime.util.ModSoundEvents;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,6 +36,7 @@ public class WheelOfTime
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+        ModSoundEvents.register(eventBus);
 
 
         eventBus.addListener(this::setup);
