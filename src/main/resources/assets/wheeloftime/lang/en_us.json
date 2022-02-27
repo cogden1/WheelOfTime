@@ -16,6 +16,14 @@
 
   "item.wheeloftime.lightning_caller": "Lightning Caller",
 
+  "item.wheeloftime.hero_caller": "Hero of the Village Caller",
+
+  "item.wheeloftime.invisibility_caller": "Invisibility Caller",
+
+  "item.wheeloftime.levitation_caller": "Levitation Caller",
+
+  "item.wheeloftime.vision_caller": "Night Vision Caller",
+
   "item.wheeloftime.strength_caller": "Strength Caller",
   "item.wheeloftime.strength_caller_1": "Strength Caller II",
   "item.wheeloftime.strength_caller_2": "Strength Caller III",
@@ -40,6 +48,11 @@
   "item.wheeloftime.fire_caller_1": "Fire Resist Caller II",
   "item.wheeloftime.fire_caller_2": "Fire Resist Caller III",
   "item.wheeloftime.fire_caller_x": "Fire Resist Caller X",
+
+  "item.wheeloftime.haste_caller": "Haste Caller",
+  "item.wheeloftime.haste_caller_1": "Haste Caller II",
+  "item.wheeloftime.haste_caller_2": "Haste Caller III",
+  "item.wheeloftime.haste_caller_x": "Haste Caller X",
 
   "itemGroup.wheelOfTimeTab": "Wheel of Time",
   "itemGroup.wheelOfTimeCallerTab": "WoT Callers"

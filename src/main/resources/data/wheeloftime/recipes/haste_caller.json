@@ -10,10 +10,10 @@
       "item": "wheeloftime:amethyst"
     },
     "C": {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:gold_block"
     }
   },
   "result": {
-    "item": "wheeloftime:lightning_caller"
+    "item": "wheeloftime:haste_caller"
   }
 }

@@ -43,6 +43,18 @@ public class ModItems {
     public static final RegistryObject<Item> LIGHTNING_CALLER = ITEMS.register("lightning_caller",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
+    public static final RegistryObject<Item> HERO_CALLER = ITEMS.register("hero_caller",
+            () -> new HeroCaller(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> INVISIBILITY_CALLER = ITEMS.register("invisibility_caller",
+            () -> new InvisibilityCaller(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> VISION_CALLER = ITEMS.register("vision_caller",
+            () -> new VisionCaller(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> LEVITATION_CALLER = ITEMS.register("levitation_caller",
+            () -> new LevitationCaller(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
     //
     public static final RegistryObject<Item> STRENGTH_CALLER = ITEMS.register("strength_caller",
             () -> new StrengthCaller(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
@@ -107,6 +119,19 @@ public class ModItems {
 
     public static final RegistryObject<Item> FIRE_CALLER_X = ITEMS.register("fire_caller_x",
             () -> new FireCallerX(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    //
+    public static final RegistryObject<Item> HASTE_CALLER = ITEMS.register("haste_caller",
+            () -> new HasteCaller(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> HASTE_CALLER_1 = ITEMS.register("haste_caller_1",
+            () -> new HasteCaller1(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> HASTE_CALLER_2 = ITEMS.register("haste_caller_2",
+            () -> new HasteCaller2(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
+
+    public static final RegistryObject<Item> HASTE_CALLER_X = ITEMS.register("haste_caller_x",
+            () -> new HasteCallerX(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP_CALLER)));
 
     //Music Discs
     public static final RegistryObject<Item> RUMBLING_MUSIC_DISC = ITEMS.register("rumbling_music_disc",

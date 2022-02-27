@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "SCS",
+    " T "
+  ],
+  "key": {
+    "T": {
+      "item": "wheeloftime:absorption_caller_x"
+    },
+    "C": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "S": {
+      "item": "wheeloftime:strength_caller_x"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:hero_caller"
+  }
+}

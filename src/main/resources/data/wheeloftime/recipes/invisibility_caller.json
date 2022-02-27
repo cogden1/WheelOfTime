@@ -10,10 +10,10 @@
       "item": "wheeloftime:amethyst"
     },
     "C": {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:glistering_melon_slice"
     }
   },
   "result": {
-    "item": "wheeloftime:lightning_caller"
+    "item": "wheeloftime:invisibility_caller"
   }
 }
