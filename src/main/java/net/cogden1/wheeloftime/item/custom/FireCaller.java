@@ -40,7 +40,8 @@ public class FireCaller extends Item{
 
     public static void giveEntityFireResist(PlayerEntity playerEntity,int tick,int level)
     {
-        playerEntity.addEffect(new EffectInstance(Effects.FIRE_RESISTANCE,tick,level));
+        playerEntity.addEffect(new EffectInstance(Effects.FIRE_RESISTANCE,tick,0));
+        playerEntity.addEffect(new EffectInstance(Effects.DAMAGE_RESISTANCE,tick,level));
     }
 
 }
