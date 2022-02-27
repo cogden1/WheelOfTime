@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wheeloftime:silver_ore"
+  },
+  "result": "wheeloftime:silver_ingot",
+  "experience": 0.45,
+  "cookingtime": 100
+}

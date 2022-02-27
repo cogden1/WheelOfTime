@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "wheeloftime:amethyst_ore"
+              "name": "wheeloftime:sapphire_ore"
             },
             {
               "type": "minecraft:item",
@@ -33,7 +33,7 @@
                   "function": "minecraft:set_count",
                   "count": {
                     "min": 1.0,
-                    "max": 3.0,
+                    "max": 2.0,
                     "type": "minecraft:uniform"
                   }
                 },
@@ -46,7 +46,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "wheeloftime:amethyst"
+              "name": "wheeloftime:sapphire"
             }
           ]
         }

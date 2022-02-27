@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:copper_block"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:copper_ingot",
+    "count": 9
+  }
+}

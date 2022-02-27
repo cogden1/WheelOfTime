@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:sapphire",
+    "count": 9
+  }
+}

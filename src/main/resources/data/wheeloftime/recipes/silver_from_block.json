@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:silver_block"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:silver_ingot",
+    "count": 9
+  }
+}

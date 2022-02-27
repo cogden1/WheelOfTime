@@ -19,12 +19,33 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, WheelOfTime.MOD_ID);
 
+        //Gems
     public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+        //Metals
+    public static final RegistryObject<Item> TESLANIUM = ITEMS.register("teslanium",
+                () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> TIN = ITEMS.register("tin",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
+    public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> LEAD_INGOT = ITEMS.register("lead_ingot",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+        //Components
     public static final RegistryObject<Item> STORAGE = ITEMS.register("storage",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
@@ -33,10 +54,6 @@ public class ModItems {
 
     public static final RegistryObject<Item> MOTOR = ITEMS.register("motor",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
-
-    public static final RegistryObject<Item> TESLANIUM = ITEMS.register("teslanium",
-            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
-
 
 
     //Callers

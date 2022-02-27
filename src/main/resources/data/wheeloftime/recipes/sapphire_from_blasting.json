@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wheeloftime:sapphire_ore"
+  },
+  "result": {
+    "item": "wheeloftime:sapphire",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

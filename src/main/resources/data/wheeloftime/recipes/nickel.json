@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wheeloftime:nickel_ore"
+  },
+  "result": "wheeloftime:nickel_ingot",
+  "experience": 0.35,
+  "cookingtime": 200
+}

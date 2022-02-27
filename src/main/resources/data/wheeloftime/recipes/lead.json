@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wheeloftime:lead_ore"
+  },
+  "result": "wheeloftime:lead_ingot",
+  "experience": 0.35,
+  "cookingtime": 200
+}

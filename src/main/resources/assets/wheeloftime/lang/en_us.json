@@ -4,15 +4,39 @@
   "item.wheeloftime.rumbling_music_disc.desc": "The Rumbling - SiM",
 
   "item.wheeloftime.amethyst": "Amethyst",
-  "item.wheeloftime.tin": "Tin",
+  "item.wheeloftime.sapphire": "Sapphire",
+
+  "item.wheeloftime.teslanium": "Teslanium",
+  "item.wheeloftime.tin": "Tin Ingot",
+  "item.wheeloftime.silver_ingot": "Silver Ingot",
+  "item.wheeloftime.nickel_ingot": "Nickel Ingot",
+  "item.wheeloftime.lead_ingot": "Lead Ingot",
+  "item.wheeloftime.copper_ingot": "Copper Ingot",
+
   "item.wheeloftime.storage": "Storage Component",
   "item.wheeloftime.battery": "Battery Component",
   "item.wheeloftime.motor": "Motor Component",
-  "item.wheeloftime.teslanium": "Teslanium",
+
   "block.wheeloftime.amethyst_ore": "Amethyst Ore",
   "block.wheeloftime.amethyst_block": "Amethyst Block",
+
+  "block.wheeloftime.sapphire_ore": "Sapphire Ore",
+  "block.wheeloftime.sapphire_block": "Sapphire Block",
+
   "block.wheeloftime.tin_ore": "Tin Ore",
   "block.wheeloftime.tin_block": "Tin Block",
+
+  "block.wheeloftime.silver_ore": "Silver Ore",
+  "block.wheeloftime.silver_block": "Silver Block",
+
+  "block.wheeloftime.lead_ore": "Lead Ore",
+  "block.wheeloftime.lead_block": "Lead Block",
+
+  "block.wheeloftime.nickel_ore": "Nickel Ore",
+  "block.wheeloftime.nickel_block": "Nickel Block",
+
+  "block.wheeloftime.copper_ore": "Copper Ore",
+  "block.wheeloftime.copper_block": "Copper Block",
 
   "item.wheeloftime.lightning_caller": "Lightning Caller",
 

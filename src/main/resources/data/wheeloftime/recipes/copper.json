@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wheeloftime:copper_ore"
+  },
+  "result": "wheeloftime:copper_ingot",
+  "experience": 0.25,
+  "cookingtime": 200
+}

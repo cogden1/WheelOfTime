@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:lead_block"
+  }
+}
