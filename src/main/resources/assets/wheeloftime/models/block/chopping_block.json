@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "wheeloftime:block/chopping_block_side",
+    "north": "wheeloftime:block/chopping_block_side",
+    "south": "wheeloftime:block/chopping_block_side",
+    "east": "wheeloftime:block/chopping_block_bottom",
+    "west": "wheeloftime:block/chopping_block_bottom",
+    "up": "wheeloftime:block/chopping_block_top",
+    "down": "wheeloftime:block/chopping_block_bottom"
+  }
+}

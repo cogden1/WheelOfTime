@@ -1,6 +1,7 @@
 package net.cogden1.wheeloftime.block;
 
 import net.cogden1.wheeloftime.WheelOfTime;
+import net.cogden1.wheeloftime.block.custom.ChoppingBlock;
 import net.cogden1.wheeloftime.item.ModItemGroup;
 import net.cogden1.wheeloftime.item.ModItems;
 import net.minecraft.block.AbstractBlock;
@@ -79,6 +80,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> LEAD_BLOCK = registerBlock("lead_block",
             () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> CHOPPING_BLOCK = registerBlock("chopping_block",
+            () -> new ChoppingBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
