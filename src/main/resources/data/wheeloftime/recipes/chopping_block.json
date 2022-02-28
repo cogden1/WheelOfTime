@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:tin"
+    },
+    "C": {
+      "item": "minecraft:golden_axe"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:chopping_block"
+  }
+}
