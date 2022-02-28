@@ -18,6 +18,8 @@
   "item.wheeloftime.motor": "Motor Component",
 
   "block.wheeloftime.chopping_block": "Chopping Block",
+  "block.wheeloftime.entity_teleport_block": "Teleport Block (Entities)",
+  "block.wheeloftime.elevator_block": "Elevator Block (Entities)",
 
   "block.wheeloftime.amethyst_ore": "Amethyst Ore",
   "block.wheeloftime.amethyst_block": "Amethyst Block",

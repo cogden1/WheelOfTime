@@ -30,8 +30,7 @@ public class ChoppingBlock extends Block {
         // fire immunity, or be sneaking to avoid chopping
         if(entity.isAttackable()
                 && !entity.hasCustomName()
-                && !entity.isSteppingCarefully()
-                && !entity.fireImmune())
+                && !entity.isSteppingCarefully())
         {
         entity.kill();
         }
