@@ -5,18 +5,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-import net.minecraft.util.Timer;
-import java.util.concurrent.TimeUnit;
 
-import static java.lang.Math.cos;
-import static java.lang.Math.sin;
-import static java.lang.Math.toRadians;
+public class EntityTeleportBlockWest extends Block {
 
 
-public class EntityTeleportBlock extends Block {
-
-
-    public EntityTeleportBlock(Properties properties) {
+    public EntityTeleportBlockWest(Properties properties) {
         super(properties);
     }
 
@@ -34,11 +27,11 @@ public class EntityTeleportBlock extends Block {
         if(entity.isAttackable()
                 && !entity.isSteppingCarefully())
         {
-            double facing = entity.yRot;
-            facing = Math.toRadians(facing);
-            entity.setPos(entity.xo - (20 * sin(facing)),
+
+            entity.setPos(entity.xo + (-20),
                     entity.yo + 0,
-                    entity.zo + (20 * cos(facing)));
+                    entity.zo + (0));
+
         }
     }
 }

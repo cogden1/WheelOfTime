@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "wheeloftime:block/chopping_block_bottom",
+    "north": "wheeloftime:block/elevator_block",
+    "south": "wheeloftime:block/elevator_block",
+    "east": "wheeloftime:block/chopping_block_bottom",
+    "west": "wheeloftime:block/chopping_block_bottom",
+    "up": "wheeloftime:block/entity_teleport_block_south",
+    "down": "wheeloftime:block/chopping_block_bottom"
+  }
+}

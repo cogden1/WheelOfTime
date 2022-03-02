@@ -1,9 +1,7 @@
 package net.cogden1.wheeloftime.block;
 
 import net.cogden1.wheeloftime.WheelOfTime;
-import net.cogden1.wheeloftime.block.custom.ChoppingBlock;
-import net.cogden1.wheeloftime.block.custom.ElevatorBlock;
-import net.cogden1.wheeloftime.block.custom.EntityTeleportBlock;
+import net.cogden1.wheeloftime.block.custom.*;
 import net.cogden1.wheeloftime.item.ModItemGroup;
 import net.cogden1.wheeloftime.item.ModItems;
 import net.minecraft.block.AbstractBlock;
@@ -91,6 +89,24 @@ public class ModBlocks {
     public static final RegistryObject<Block> ENTITY_TELEPORT_BLOCK = registerBlock("entity_teleport_block",
             () -> new EntityTeleportBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> ENTITY_TELEPORT_BLOCK_NORTH = registerBlock("entity_teleport_block_north",
+            () -> new EntityTeleportBlockNorth(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> ENTITY_TELEPORT_BLOCK_SOUTH = registerBlock("entity_teleport_block_south",
+            () -> new EntityTeleportBlockSouth(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> ENTITY_TELEPORT_BLOCK_EAST = registerBlock("entity_teleport_block_east",
+            () -> new EntityTeleportBlockEast(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> ENTITY_TELEPORT_BLOCK_WEST = registerBlock("entity_teleport_block_west",
+            () -> new EntityTeleportBlockWest(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+
 
     public static final RegistryObject<Block> ELEVATOR_BLOCK = registerBlock("elevator_block",
             () -> new ElevatorBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).

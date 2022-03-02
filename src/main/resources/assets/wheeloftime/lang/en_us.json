@@ -19,6 +19,10 @@
 
   "block.wheeloftime.chopping_block": "Chopping Block",
   "block.wheeloftime.entity_teleport_block": "Teleport Block (Entities)",
+  "block.wheeloftime.entity_teleport_block_north": "Teleport Block (Entities - North)",
+  "block.wheeloftime.entity_teleport_block_south": "Teleport Block (Entities - South)",
+  "block.wheeloftime.entity_teleport_block_west": "Teleport Block (Entities - West)",
+  "block.wheeloftime.entity_teleport_block_east": "Teleport Block (Entities - East)",
   "block.wheeloftime.elevator_block": "Elevator Block (Entities)",
 
   "block.wheeloftime.amethyst_ore": "Amethyst Ore",
