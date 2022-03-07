@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wheeloftime:turquoise_ore"
+  },
+  "result": {
+    "item": "wheeloftime:turquoise",
+    "count": 1
+  },
+  "experience": 0.65,
+  "cookingtime": 200
+}

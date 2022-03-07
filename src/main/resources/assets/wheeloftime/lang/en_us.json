@@ -5,6 +5,10 @@
 
   "item.wheeloftime.amethyst": "Amethyst",
   "item.wheeloftime.sapphire": "Sapphire",
+  "item.wheeloftime.ruby": "Ruby",
+  "item.wheeloftime.turquoise": "Turquoise",
+  "item.wheeloftime.topaz": "Topaz",
+  "item.wheeloftime.crystal_pain": "Crystallized Pain",
 
   "item.wheeloftime.teslanium": "Teslanium",
   "item.wheeloftime.tin": "Tin Ingot",
@@ -12,6 +16,8 @@
   "item.wheeloftime.nickel_ingot": "Nickel Ingot",
   "item.wheeloftime.lead_ingot": "Lead Ingot",
   "item.wheeloftime.copper_ingot": "Copper Ingot",
+  "item.wheeloftime.aluminum_ingot": "Aluminum Ingot",
+  "item.wheeloftime.platinum_ingot": "Platinum Ingot",
 
   "item.wheeloftime.storage": "Storage Component",
   "item.wheeloftime.battery": "Battery Component",
@@ -31,8 +37,23 @@
   "block.wheeloftime.sapphire_ore": "Sapphire Ore",
   "block.wheeloftime.sapphire_block": "Sapphire Block",
 
+  "block.wheeloftime.ruby_ore": "Ruby Ore",
+  "block.wheeloftime.ruby_block": "Ruby Block",
+
+  "block.wheeloftime.topaz_ore": "Topaz Ore",
+  "block.wheeloftime.topaz_block": "Topaz Block",
+
+  "block.wheeloftime.turquoise_ore": "Turquoise Ore",
+  "block.wheeloftime.turquoise_block": "Turquoise Block",
+
+  "block.wheeloftime.crystal_pain_ore": "Crystallized Pain Ore",
+  "block.wheeloftime.crystal_pain_block": "Crystallized Pain Block",
+
   "block.wheeloftime.tin_ore": "Tin Ore",
   "block.wheeloftime.tin_block": "Tin Block",
+
+  "block.wheeloftime.platinum_ore": "Platinum Ore",
+  "block.wheeloftime.platinum_block": "Platinum Block",
 
   "block.wheeloftime.silver_ore": "Silver Ore",
   "block.wheeloftime.silver_block": "Silver Block",
@@ -42,6 +63,9 @@
 
   "block.wheeloftime.nickel_ore": "Nickel Ore",
   "block.wheeloftime.nickel_block": "Nickel Block",
+
+  "block.wheeloftime.aluminum_ore": "Aluminum Ore",
+  "block.wheeloftime.aluminum_block": "Aluminum Block",
 
   "block.wheeloftime.copper_ore": "Copper Ore",
   "block.wheeloftime.copper_block": "Copper Block",

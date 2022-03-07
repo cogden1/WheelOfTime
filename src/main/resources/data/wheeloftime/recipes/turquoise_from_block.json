@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:turquoise_block"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:turquoise",
+    "count": 9
+  }
+}

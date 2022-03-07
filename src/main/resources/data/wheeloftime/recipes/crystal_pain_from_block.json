@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:crystal_pain_block"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:crystal_pain",
+    "count": 9
+  }
+}

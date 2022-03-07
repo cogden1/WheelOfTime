@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wheeloftime:aluminum_ore"
+  },
+  "result": "wheeloftime:aluminum_ingot",
+  "experience": 0.25,
+  "cookingtime": 200
+}

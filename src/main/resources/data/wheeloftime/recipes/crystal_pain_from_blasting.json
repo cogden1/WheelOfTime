@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wheeloftime:crystal_pain_ore"
+  },
+  "result": {
+    "item": "wheeloftime:crystal_pain",
+    "count": 1
+  },
+  "experience": 0.85,
+  "cookingtime": 100
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:ruby",
+    "count": 9
+  }
+}

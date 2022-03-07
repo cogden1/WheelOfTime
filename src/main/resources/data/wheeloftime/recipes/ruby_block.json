@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:ruby"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:ruby_block"
+  }
+}

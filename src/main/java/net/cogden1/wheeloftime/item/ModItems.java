@@ -26,6 +26,18 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
+    public static final RegistryObject<Item> TOPAZ = ITEMS.register("topaz",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> TURQUOISE = ITEMS.register("turquoise",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> CRYSTAL_PAIN = ITEMS.register("crystal_pain",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
         //Metals
     public static final RegistryObject<Item> TESLANIUM = ITEMS.register("teslanium",
                 () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
@@ -44,6 +56,14 @@ public class ModItems {
 
     public static final RegistryObject<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+
 
         //Components
     public static final RegistryObject<Item> STORAGE = ITEMS.register("storage",

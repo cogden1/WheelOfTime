@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wheeloftime:ruby_ore"
+  },
+  "result": {
+    "item": "wheeloftime:ruby",
+    "count": 1
+  },
+  "experience": 0.45,
+  "cookingtime": 200
+}

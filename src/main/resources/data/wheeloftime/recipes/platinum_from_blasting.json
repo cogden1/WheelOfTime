@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wheeloftime:platinum_ore"
+  },
+  "result": "wheeloftime:platinum_ingot",
+  "experience": 0.55,
+  "cookingtime": 100
+}

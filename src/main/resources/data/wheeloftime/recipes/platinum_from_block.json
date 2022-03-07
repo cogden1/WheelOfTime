@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:platinum_block"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:platinum_ingot",
+    "count": 9
+  }
+}

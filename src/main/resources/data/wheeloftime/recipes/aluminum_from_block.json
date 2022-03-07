@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:aluminum_block"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:aluminum_ingot",
+    "count": 9
+  }
+}
