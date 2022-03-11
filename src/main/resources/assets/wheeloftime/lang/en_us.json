@@ -112,6 +112,10 @@
   "block.wheeloftime.turtanium_block": "Turtanium Block",
 
   "block.wheeloftime.tin_sheet_block": "Tin Sheet Block",
+  "block.wheeloftime.copper_sheet_block": "Copper Sheet Block",
+  "block.wheeloftime.iron_sheet_block": "Iron Sheet Block",
+  "block.wheeloftime.lead_sheet_block": "Lead Sheet Block",
+  "block.wheeloftime.gold_sheet_block": "Gold Sheet Block",
 
   "item.wheeloftime.lightning_caller": "Lightning Caller",
 

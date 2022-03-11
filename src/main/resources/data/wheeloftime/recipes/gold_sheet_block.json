@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "###",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:gold_block"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:gold_sheet_block",
+    "count": 16
+  }
+}
