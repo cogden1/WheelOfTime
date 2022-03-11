@@ -6,8 +6,13 @@ import net.cogden1.wheeloftime.item.ModItemGroup;
 import net.cogden1.wheeloftime.item.ModItems;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.particle.FireworkParticle;
+import net.minecraft.client.particle.LavaParticle;
+import net.minecraft.client.particle.Particle;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.particles.IParticleData;
+import net.minecraft.particles.ParticleType;
 import net.minecraft.util.registry.Registry;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,6 +22,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import org.lwjgl.system.CallbackI;
 
 import java.util.function.Supplier;
+import java.util.function.ToIntFunction;
 
 public class ModBlocks {
 
@@ -81,11 +87,11 @@ public class ModBlocks {
                     requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> GLOWSTONIUM_ORE = registerBlock("glowstonium_ore",
-            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+            () -> new GlowstoniumOre(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> ICEBURST_STONE_ORE = registerBlock("iceburst_stone_ore",
-            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+            () -> new IceburstStoneOre(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> ORGANIC_POLYMER_ORE = registerBlock("organic_polymer_ore",
@@ -154,11 +160,11 @@ public class ModBlocks {
                     requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> GLOWSTONIUM_BLOCK = registerBlock("glowstonium_block",
-            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+            () -> new GlowstoniumBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> ICEBURST_STONE_BLOCK = registerBlock("iceburst_stone_block",
-            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+            () -> new IceburstStoneBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> MERCURY_BLOCK = registerBlock("mercury_block",
