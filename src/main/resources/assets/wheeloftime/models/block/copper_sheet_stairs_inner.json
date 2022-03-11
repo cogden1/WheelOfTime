@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "wheeloftime:block/copper_sheet_block",
+    "top": "wheeloftime:block/copper_sheet_block",
+    "side": "wheeloftime:block/copper_sheet_block"
+  }
+}

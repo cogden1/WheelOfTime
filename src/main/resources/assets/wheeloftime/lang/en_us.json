@@ -117,6 +117,12 @@
   "block.wheeloftime.lead_sheet_block": "Lead Sheet Block",
   "block.wheeloftime.gold_sheet_block": "Gold Sheet Block",
 
+  "block.wheeloftime.tin_sheet_stairs": "Tin Sheet Stairs",
+  "block.wheeloftime.gold_sheet_stairs": "Gold Sheet Stairs",
+  "block.wheeloftime.iron_sheet_stairs": "Iron Sheet Stairs",
+  "block.wheeloftime.copper_sheet_stairs": "Copper Sheet Stairs",
+  "block.wheeloftime.lead_sheet_stairs": "Lead Sheet Stairs",
+
   "item.wheeloftime.lightning_caller": "Lightning Caller",
 
   "item.wheeloftime.hero_caller": "Hero of the Village Caller",
