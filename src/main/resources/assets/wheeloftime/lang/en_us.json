@@ -123,6 +123,23 @@
   "block.wheeloftime.copper_sheet_stairs": "Copper Sheet Stairs",
   "block.wheeloftime.lead_sheet_stairs": "Lead Sheet Stairs",
 
+  "block.wheeloftime.tin_sheet_slab": "Tin Sheet Slab",
+  "block.wheeloftime.gold_sheet_slab": "Gold Sheet Slab",
+  "block.wheeloftime.iron_sheet_slab": "Iron Sheet Slab",
+  "block.wheeloftime.copper_sheet_slab": "Copper Sheet Slab",
+  "block.wheeloftime.lead_sheet_slab": "Lead Sheet Slab",
+
+  "block.wheeloftime.tin_sheet_fence": "Tin Sheet Fence",
+  "block.wheeloftime.tin_sheet_fence_gate": "Tin Sheet Fence Gate",
+  "block.wheeloftime.gold_sheet_fence": "Gold Sheet Fence",
+  "block.wheeloftime.gold_sheet_fence_gate": "Gold Sheet Fence Gate",
+  "block.wheeloftime.iron_sheet_fence": "Iron Sheet Fence",
+  "block.wheeloftime.iron_sheet_fence_gate": "Iron Sheet Fence Gate",
+  "block.wheeloftime.lead_sheet_fence": "Lead Sheet Fence",
+  "block.wheeloftime.lead_sheet_fence_gate": "Lead Sheet Fence Gate",
+  "block.wheeloftime.copper_sheet_fence": "Copper Sheet Fence",
+  "block.wheeloftime.copper_sheet_fence_gate": "Copper Sheet Fence Gate",
+
   "item.wheeloftime.lightning_caller": "Lightning Caller",
 
   "item.wheeloftime.hero_caller": "Hero of the Village Caller",

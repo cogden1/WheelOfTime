@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:lead_sheet_block"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:lead_sheet_fence_gate",
+    "count": 2
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "wheeloftime:block/tin_sheet_block",
+    "top": "wheeloftime:block/tin_sheet_block",
+    "side": "wheeloftime:block/tin_sheet_block"
+  }
+}

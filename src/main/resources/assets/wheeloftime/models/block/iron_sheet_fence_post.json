@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "wheeloftime:block/iron_sheet_block"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "wheeloftime:tin_sheet_fence",
+    "wheeloftime:gold_sheet_fence",
+    "wheeloftime:iron_sheet_fence",
+    "wheeloftime:copper_sheet_fence",
+    "wheeloftime:lead_sheet_fence"
+  ]
+
+}

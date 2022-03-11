@@ -3,15 +3,15 @@
   "pattern": [
     "   ",
     "###",
-    "   "
+    "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_block"
+      "item": "wheeloftime:iron_sheet_block"
     }
   },
   "result": {
-    "item": "wheeloftime:iron_sheet_block",
-    "count": 16
+    "item": "wheeloftime:iron_sheet_fence",
+    "count": 3
   }
 }

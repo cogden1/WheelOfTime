@@ -4,9 +4,7 @@ import net.cogden1.wheeloftime.WheelOfTime;
 import net.cogden1.wheeloftime.block.custom.*;
 import net.cogden1.wheeloftime.item.ModItemGroup;
 import net.cogden1.wheeloftime.item.ModItems;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.StairsBlock;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -259,6 +257,66 @@ public class ModBlocks {
             () -> new StairsBlock(() -> LEAD_SHEET_BLOCK.get().defaultBlockState(),
                     AbstractBlock.Properties.of(Material.METAL).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                             requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> TIN_SHEET_FENCE = registerBlock("tin_sheet_fence",
+            () -> new FenceBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> TIN_SHEET_FENCE_GATE = registerBlock("tin_sheet_fence_gate",
+            () -> new FenceGateBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> IRON_SHEET_FENCE = registerBlock("iron_sheet_fence",
+            () -> new FenceBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> IRON_SHEET_FENCE_GATE = registerBlock("iron_sheet_fence_gate",
+            () -> new FenceGateBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> COPPER_SHEET_FENCE = registerBlock("copper_sheet_fence",
+            () -> new FenceBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> COPPER_SHEET_FENCE_GATE = registerBlock("copper_sheet_fence_gate",
+            () -> new FenceGateBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> LEAD_SHEET_FENCE = registerBlock("lead_sheet_fence",
+            () -> new FenceBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> LEAD_SHEET_FENCE_GATE = registerBlock("lead_sheet_fence_gate",
+            () -> new FenceGateBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> GOLD_SHEET_FENCE = registerBlock("gold_sheet_fence",
+            () -> new FenceBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> GOLD_SHEET_FENCE_GATE = registerBlock("gold_sheet_fence_gate",
+            () -> new FenceGateBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> TIN_SHEET_SLAB = registerBlock("tin_sheet_slab",
+            () -> new SlabBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> COPPER_SHEET_SLAB = registerBlock("copper_sheet_slab",
+            () -> new SlabBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> GOLD_SHEET_SLAB = registerBlock("gold_sheet_slab",
+            () -> new SlabBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> IRON_SHEET_SLAB = registerBlock("iron_sheet_slab",
+            () -> new SlabBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> LEAD_SHEET_SLAB = registerBlock("lead_sheet_slab",
+            () -> new SlabBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
 
 
 
