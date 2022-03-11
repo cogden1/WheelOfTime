@@ -213,6 +213,11 @@ public class ModBlocks {
             () -> new ElevatorBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
+    //decor
+    public static final RegistryObject<Block> TIN_SHEET_BLOCK = registerBlock("tin_sheet_block",
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name,block);

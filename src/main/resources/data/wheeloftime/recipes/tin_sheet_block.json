@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "###",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:tin_block"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:tin_sheet_block",
+    "count": 16
+  }
+}
