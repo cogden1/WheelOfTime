@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wheeloftime:mercury_ore"
+  },
+  "result": {
+    "item": "wheeloftime:mercury",
+    "count": 1
+  },
+  "experience": 0.25,
+  "cookingtime": 200
+}

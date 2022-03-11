@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wheeloftime:organic_polymer_ore"
+  },
+  "result": {
+    "item": "wheeloftime:organic_polymer",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

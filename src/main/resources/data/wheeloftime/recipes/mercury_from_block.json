@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:mercury_block"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:mercury",
+    "count": 9
+  }
+}

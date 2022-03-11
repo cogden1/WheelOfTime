@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wheeloftime:salt_ore"
+  },
+  "result": {
+    "item": "wheeloftime:salt",
+    "count": 2
+  },
+  "experience": 0.15,
+  "cookingtime": 200
+}

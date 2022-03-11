@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:steel_block"
+  }
+}

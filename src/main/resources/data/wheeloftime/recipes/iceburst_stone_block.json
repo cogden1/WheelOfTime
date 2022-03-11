@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:iceburst_stone"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:iceburst_stone_block"
+  }
+}

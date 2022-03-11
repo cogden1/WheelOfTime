@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wheeloftime:sulfur_ore"
+  },
+  "result": {
+    "item": "wheeloftime:sulfur",
+    "count": 2
+  },
+  "experience": 0.25,
+  "cookingtime": 200
+}

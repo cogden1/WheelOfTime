@@ -19,7 +19,20 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, WheelOfTime.MOD_ID);
 
-        //Gems
+    //resources
+    public static final RegistryObject<Item> MERCURY = ITEMS.register("mercury",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> ICEBURST_STONE = ITEMS.register("iceburst_stone",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> ORGANIC_POLYMER = ITEMS.register("organic_polymer",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> CRYSTAL_PAIN = ITEMS.register("crystal_pain",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    //Gems
     public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
@@ -35,10 +48,8 @@ public class ModItems {
     public static final RegistryObject<Item> TURQUOISE = ITEMS.register("turquoise",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
-    public static final RegistryObject<Item> CRYSTAL_PAIN = ITEMS.register("crystal_pain",
-            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
-        //Metals
+    //Metals
     public static final RegistryObject<Item> TESLANIUM = ITEMS.register("teslanium",
                 () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
@@ -63,9 +74,58 @@ public class ModItems {
     public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
+    public static final RegistryObject<Item> TURTANIUM_INGOT = ITEMS.register("turtanium_ingot",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
 
-        //Components
+    //dusts
+    public static final RegistryObject<Item> ALUMINUM_DUST = ITEMS.register("aluminum_dust",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> COAL_DUST = ITEMS.register("coal_dust",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> COPPER_DUST = ITEMS.register("copper_dust",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> GOLD_DUST = ITEMS.register("gold_dust",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> IRON_DUST = ITEMS.register("iron_dust",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> GLOWSTONIUM = ITEMS.register("glowstonium",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> LEAD_DUST = ITEMS.register("lead_dust",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> NICKEL_DUST = ITEMS.register("nickel_dust",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> PLATINUM_DUST = ITEMS.register("platinum_dust",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> SALT = ITEMS.register("salt",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> SILVER_DUST = ITEMS.register("silver_dust",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> STEEL_DUST = ITEMS.register("steel_dust",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> SULFUR = ITEMS.register("sulfur",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> TIN_DUST = ITEMS.register("tin_dust",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+
+    //Components
     public static final RegistryObject<Item> STORAGE = ITEMS.register("storage",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 

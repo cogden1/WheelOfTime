@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wheeloftime:iceburst_stone_ore"
+  },
+  "result": {
+    "item": "wheeloftime:iceburst_stone",
+    "count": 1
+  },
+  "experience": 0.95,
+  "cookingtime": 200
+}

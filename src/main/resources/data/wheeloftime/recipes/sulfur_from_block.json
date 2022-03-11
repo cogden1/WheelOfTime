@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:sulfur_block"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:sulfur",
+    "count": 9
+  }
+}

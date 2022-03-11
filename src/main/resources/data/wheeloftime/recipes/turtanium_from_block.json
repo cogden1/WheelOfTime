@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:turtanium_block"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:turtanium_ingot",
+    "count": 9
+  }
+}

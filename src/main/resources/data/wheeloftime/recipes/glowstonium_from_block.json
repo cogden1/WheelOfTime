@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:glowstonium_block"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:glowstonium",
+    "count": 9
+  }
+}

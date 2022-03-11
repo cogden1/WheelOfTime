@@ -18,6 +18,26 @@
   "item.wheeloftime.copper_ingot": "Copper Ingot",
   "item.wheeloftime.aluminum_ingot": "Aluminum Ingot",
   "item.wheeloftime.platinum_ingot": "Platinum Ingot",
+  "item.wheeloftime.turtanium_ingot": "Turtanium Ingot",
+  "item.wheeloftime.steel_ingot": "Steel Ingot",
+  "item.wheeloftime.mercury": "Mercury",
+  "item.wheeloftime.organic_polymer": "Organic Polymer",
+  "item.wheeloftime.iceburst_stone": "Iceburst Stone",
+
+  "item.wheeloftime.tin_dust": "Tin Dust",
+  "item.wheeloftime.silver_dust": "Silver Dust",
+  "item.wheeloftime.nickel_dust": "Nickel Dust",
+  "item.wheeloftime.lead_dust": "Lead Dust",
+  "item.wheeloftime.copper_dust": "Copper Dust",
+  "item.wheeloftime.aluminum_dust": "Aluminum Dust",
+  "item.wheeloftime.platinum_dust": "Platinum Dust",
+  "item.wheeloftime.iron_dust": "Iron Dust",
+  "item.wheeloftime.gold_dust": "Gold Dust",
+  "item.wheeloftime.steel_dust": "Steel Dust",
+  "item.wheeloftime.salt": "Salt",
+  "item.wheeloftime.sulfur": "Sulfur",
+  "item.wheeloftime.glowstonium": "Glowstonium",
+  "item.wheeloftime.coal_dust": "Coal Dust",
 
   "item.wheeloftime.storage": "Storage Component",
   "item.wheeloftime.battery": "Battery Component",
@@ -69,6 +89,27 @@
 
   "block.wheeloftime.copper_ore": "Copper Ore",
   "block.wheeloftime.copper_block": "Copper Block",
+
+  "block.wheeloftime.iceburst_stone_ore": "Iceburst Stone Ore",
+  "block.wheeloftime.iceburst_stone_block": "Iceburst Stone Block",
+
+  "block.wheeloftime.glowstonium_ore": "Glowstonium Ore",
+  "block.wheeloftime.glowstonium_block": "Glowstonium Block",
+
+  "block.wheeloftime.mercury_ore": "Mercury Ore",
+  "block.wheeloftime.mercury_block": "Mercury Block",
+
+  "block.wheeloftime.organic_polymer_ore": "Organic Polymer Ore",
+
+  "block.wheeloftime.salt_ore": "Salt Ore",
+  "block.wheeloftime.salt_block": "Salt Block",
+
+  "block.wheeloftime.sulfur_ore": "Sulfur Ore",
+  "block.wheeloftime.sulfur_block": "Sulfur Block",
+
+  "block.wheeloftime.steel_block": "Steel Block",
+
+  "block.wheeloftime.turtanium_block": "Turtanium Block",
 
   "item.wheeloftime.lightning_caller": "Lightning Caller",
 

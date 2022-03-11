@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wheeloftime:organic_polymer_ore"
+  },
+  "result": {
+    "item": "wheeloftime:organic_polymer",
+    "count": 2
+  },
+  "experience": 0.25,
+  "cookingtime": 100
+}
