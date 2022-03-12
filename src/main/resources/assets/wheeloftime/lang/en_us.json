@@ -27,7 +27,7 @@
   "item.wheeloftime.aluminum_ingot": "Aluminum Ingot",
   "item.wheeloftime.platinum_ingot": "Platinum Ingot",
   "item.wheeloftime.turtanium_ingot": "Turtanium Ingot",
-  "item.wheeloftime.steel_ingot": "Steel Ingot",
+  "item.wheeloftime.steel_ingot": "Solid Steel Ingot",
   "item.wheeloftime.mercury": "Mercury",
   "item.wheeloftime.organic_polymer": "Organic Polymer",
   "item.wheeloftime.iceburst_stone": "Iceburst Stone",
@@ -50,7 +50,7 @@
   "item.wheeloftime.storage": "Storage Component",
   "item.wheeloftime.battery": "Battery Component",
   "item.wheeloftime.motor": "Motor Component",
-  "item.wheeloftime.steel_tool_rod": "Steel Tool Rod",
+  "item.wheeloftime.steel_tool_rod": "Solid Steel Tool Rod",
 
   "item.wheeloftime.topaz_sword": "Topaz Sword",
   "item.wheeloftime.topaz_pickaxe": "Topaz Pickaxe",
@@ -146,7 +146,7 @@
   "block.wheeloftime.sulfur_ore": "Sulfur Ore",
   "block.wheeloftime.sulfur_block": "Sulfur Block",
 
-  "block.wheeloftime.steel_block": "Steel Block",
+  "block.wheeloftime.steel_block": "Solid Steel Block",
 
   "block.wheeloftime.turtanium_block": "Turtanium Block",
 
