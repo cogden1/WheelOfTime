@@ -18,13 +18,13 @@ public enum ModItemTier implements IItemTier {
     SAPPHIRE(6, 2037, 9.0F, 4.0F, 17,
             () -> Ingredient.of(ModItems.PRISTINE_SAPPHIRE.get())),
 
-    TURQUOISE(7, 2605, 9.0F, 4.0F, 18,
+    TURQUOISE(7, 2605, 9.0F, 5.0F, 18,
             () -> Ingredient.of(ModItems.PRISTINE_TURQUOISE.get())),
 
-    RUBY(8, 3594, 10.0F, 5.0F, 19,
+    RUBY(8, 3594, 10.0F, 6.0F, 19,
             () -> Ingredient.of(ModItems.PRISTINE_RUBY.get())),
 
-    PLATINUM(9, 5059, 11.0F, 6.0F, 20,
+    PLATINUM(9, 5059, 11.0F, 7.0F, 20,
             () -> Ingredient.of(ModBlocks.PLATINUM_BLOCK.get()));
 
     private final int level;
