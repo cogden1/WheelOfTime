@@ -48,6 +48,25 @@ public class ModItems {
     public static final RegistryObject<Item> TURQUOISE = ITEMS.register("turquoise",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
+    public static final RegistryObject<Item> PRISTINE_AMETHYST = ITEMS.register("pristine_amethyst",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> PRISTINE_SAPPHIRE = ITEMS.register("pristine_sapphire",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> PRISTINE_TOPAZ = ITEMS.register("pristine_topaz",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> PRISTINE_RUBY = ITEMS.register("pristine_ruby",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> PRISTINE_TURQUOISE = ITEMS.register("pristine_turquoise",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> PRISTINE_DIAMOND = ITEMS.register("pristine_diamond",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+
 
     //Metals
     public static final RegistryObject<Item> TESLANIUM = ITEMS.register("teslanium",
