@@ -3,9 +3,7 @@ package net.cogden1.wheeloftime.item;
 import net.cogden1.wheeloftime.WheelOfTime;
 import net.cogden1.wheeloftime.item.custom.*;
 import net.cogden1.wheeloftime.util.ModSoundEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.MusicDiscItem;
+import net.minecraft.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,6 +16,111 @@ public class ModItems {
     //items
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, WheelOfTime.MOD_ID);
+
+    //tools
+    public static final RegistryObject<Item> TOPAZ_SWORD = ITEMS.register("topaz_sword",
+            () -> new SwordItem(ModItemTier.TOPAZ, 2, -2.4f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe",
+            () -> new PickaxeItem(ModItemTier.TOPAZ, 0, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> TOPAZ_AXE = ITEMS.register("topaz_axe",
+            () -> new AxeItem(ModItemTier.TOPAZ, 3, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> TOPAZ_SHOVEL = ITEMS.register("topaz_shovel",
+            () -> new ShovelItem(ModItemTier.TOPAZ, -1, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+
+    public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword",
+            () -> new SwordItem(ModItemTier.AMETHYST, 2, -2.4f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe",
+            () -> new PickaxeItem(ModItemTier.AMETHYST, 0, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> AMETHYST_AXE = ITEMS.register("amethyst_axe",
+            () -> new AxeItem(ModItemTier.AMETHYST, 3, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel",
+            () -> new ShovelItem(ModItemTier.AMETHYST, -1, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+
+    public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
+            () -> new SwordItem(ModItemTier.SAPPHIRE, 2, -2.4f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
+            () -> new PickaxeItem(ModItemTier.SAPPHIRE, 0, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
+            () -> new AxeItem(ModItemTier.SAPPHIRE, 3, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",
+            () -> new ShovelItem(ModItemTier.SAPPHIRE, -1, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+
+    public static final RegistryObject<Item> TURQUOISE_SWORD = ITEMS.register("turquoise_sword",
+            () -> new SwordItem(ModItemTier.TURQUOISE, 2, -2.4f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> TURQUOISE_PICKAXE = ITEMS.register("turquoise_pickaxe",
+            () -> new PickaxeItem(ModItemTier.TURQUOISE, 0, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> TURQUOISE_AXE = ITEMS.register("turquoise_axe",
+            () -> new AxeItem(ModItemTier.TURQUOISE, 3, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> TURQUOISE_SHOVEL = ITEMS.register("turquoise_shovel",
+            () -> new ShovelItem(ModItemTier.TURQUOISE, -1, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+
+    public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",
+            () -> new SwordItem(ModItemTier.RUBY, 2, -2.4f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe",
+            () -> new PickaxeItem(ModItemTier.RUBY, 0, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> RUBY_AXE = ITEMS.register("ruby_axe",
+            () -> new AxeItem(ModItemTier.RUBY, 3, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel",
+            () -> new ShovelItem(ModItemTier.RUBY, -1, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+
+    public static final RegistryObject<Item> PLATINUM_SWORD = ITEMS.register("platinum_sword",
+            () -> new SwordItem(ModItemTier.PLATINUM, 2, -2.4f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> PLATINUM_PICKAXE = ITEMS.register("platinum_pickaxe",
+            () -> new PickaxeItem(ModItemTier.PLATINUM, 0, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> PLATINUM_AXE = ITEMS.register("platinum_axe",
+            () -> new AxeItem(ModItemTier.PLATINUM, 3, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> PLATINUM_SHOVEL = ITEMS.register("platinum_shovel",
+            () -> new ShovelItem(ModItemTier.PLATINUM, -1, -3f,
+                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+
+
 
     //resources
     public static final RegistryObject<Item> MERCURY = ITEMS.register("mercury",
@@ -153,6 +256,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> MOTOR = ITEMS.register("motor",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> STEEL_TOOL_ROD = ITEMS.register("steel_tool_rod",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
 
 
     //Callers

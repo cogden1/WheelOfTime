@@ -31,7 +31,7 @@ public class ModBlocks {
 
     //Ore
     public static final RegistryObject<Block> AMETHYST_ORE = registerBlock("amethyst_ore",
-            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(5).harvestTool(ToolType.PICKAXE).
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(4).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(3f)));
 
     public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
@@ -39,19 +39,19 @@ public class ModBlocks {
                     requiresCorrectToolForDrops().strength(3f)));
 
     public static final RegistryObject<Block> TOPAZ_ORE = registerBlock("topaz_ore",
-            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(3).harvestTool(ToolType.PICKAXE).
-                    requiresCorrectToolForDrops().strength(3f)));
-
-    public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
-            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(6).harvestTool(ToolType.PICKAXE).
-                    requiresCorrectToolForDrops().strength(3f)));
-
-    public static final RegistryObject<Block> TURQUOISE_ORE = registerBlock("turquoise_ore",
             () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(4).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(3f)));
 
+    public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(7).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(3f)));
+
+    public static final RegistryObject<Block> TURQUOISE_ORE = registerBlock("turquoise_ore",
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(6).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(3f)));
+
     public static final RegistryObject<Block> CRYSTAL_PAIN_ORE = registerBlock("crystal_pain_ore",
-            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(3).harvestTool(ToolType.PICKAXE).
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(5).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(3f)));
 
     public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore",
@@ -91,15 +91,15 @@ public class ModBlocks {
                     requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> ICEBURST_STONE_ORE = registerBlock("iceburst_stone_ore",
-            () -> new IceburstStoneOre(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+            () -> new IceburstStoneOre(AbstractBlock.Properties.of(Material.STONE).harvestLevel(7).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> ORGANIC_POLYMER_ORE = registerBlock("organic_polymer_ore",
-            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(3).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> SALT_ORE = registerBlock("salt_ore",
-            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(1).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> SULFUR_ORE = registerBlock("sulfur_ore",
@@ -242,27 +242,27 @@ public class ModBlocks {
     public static final RegistryObject<Block> TIN_SHEET_STAIRS = registerBlock("tin_sheet_stairs",
             () -> new StairsBlock(() -> TIN_SHEET_BLOCK.get().defaultBlockState(),
                     AbstractBlock.Properties.of(Material.METAL).harvestLevel(2).harvestTool(ToolType.PICKAXE).
-                            requiresCorrectToolForDrops()));
+                            requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> IRON_SHEET_STAIRS = registerBlock("iron_sheet_stairs",
             () -> new StairsBlock(() -> IRON_SHEET_BLOCK.get().defaultBlockState(),
                     AbstractBlock.Properties.of(Material.METAL).harvestLevel(2).harvestTool(ToolType.PICKAXE).
-                            requiresCorrectToolForDrops()));
+                            requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> GOLD_SHEET_STAIRS = registerBlock("gold_sheet_stairs",
             () -> new StairsBlock(() -> GOLD_SHEET_BLOCK.get().defaultBlockState(),
                     AbstractBlock.Properties.of(Material.METAL).harvestLevel(2).harvestTool(ToolType.PICKAXE).
-                            requiresCorrectToolForDrops()));
+                            requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> COPPER_SHEET_STAIRS = registerBlock("copper_sheet_stairs",
             () -> new StairsBlock(() -> COPPER_SHEET_BLOCK.get().defaultBlockState(),
                     AbstractBlock.Properties.of(Material.METAL).harvestLevel(2).harvestTool(ToolType.PICKAXE).
-                            requiresCorrectToolForDrops()));
+                            requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> LEAD_SHEET_STAIRS = registerBlock("lead_sheet_stairs",
             () -> new StairsBlock(() -> LEAD_SHEET_BLOCK.get().defaultBlockState(),
                     AbstractBlock.Properties.of(Material.METAL).harvestLevel(2).harvestTool(ToolType.PICKAXE).
-                            requiresCorrectToolForDrops()));
+                            requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> TIN_SHEET_FENCE = registerBlock("tin_sheet_fence",
             () -> new FenceBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).

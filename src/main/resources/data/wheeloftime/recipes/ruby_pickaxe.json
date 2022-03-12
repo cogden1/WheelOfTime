@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:steel_tool_rod"
+    },
+    "O": {
+      "item": "wheeloftime:pristine_ruby"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:ruby_pickaxe",
+    "count": 1
+  }
+}

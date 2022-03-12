@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " O ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:steel_tool_rod"
+    },
+    "O": {
+      "item": "wheeloftime:pristine_sapphire"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:sapphire_shovel",
+    "count": 1
+  }
+}

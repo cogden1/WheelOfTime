@@ -50,6 +50,37 @@
   "item.wheeloftime.storage": "Storage Component",
   "item.wheeloftime.battery": "Battery Component",
   "item.wheeloftime.motor": "Motor Component",
+  "item.wheeloftime.steel_tool_rod": "Steel Tool Rod",
+
+  "item.wheeloftime.topaz_sword": "Topaz Sword",
+  "item.wheeloftime.topaz_pickaxe": "Topaz Pickaxe",
+  "item.wheeloftime.topaz_axe": "Topaz Axe",
+  "item.wheeloftime.topaz_shovel": "Topaz Shovel",
+
+  "item.wheeloftime.sapphire_sword": "Sapphire Sword",
+  "item.wheeloftime.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.wheeloftime.sapphire_axe": "Sapphire Axe",
+  "item.wheeloftime.sapphire_shovel": "Sapphire Shovel",
+
+  "item.wheeloftime.turquoise_sword": "Turquoise Sword",
+  "item.wheeloftime.turquoise_pickaxe": "Turquoise Pickaxe",
+  "item.wheeloftime.turquoise_axe": "Turquoise Axe",
+  "item.wheeloftime.turquoise_shovel": "Turquoise Shovel",
+
+  "item.wheeloftime.ruby_sword": "Ruby Sword",
+  "item.wheeloftime.ruby_pickaxe": "Ruby Pickaxe",
+  "item.wheeloftime.ruby_axe": "Ruby Axe",
+  "item.wheeloftime.ruby_shovel": "Ruby Shovel",
+
+  "item.wheeloftime.amethyst_sword": "Amethyst Sword",
+  "item.wheeloftime.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.wheeloftime.amethyst_axe": "Amethyst Axe",
+  "item.wheeloftime.amethyst_shovel": "Amethyst Shovel",
+
+  "item.wheeloftime.platinum_sword": "Platinum Sword",
+  "item.wheeloftime.platinum_pickaxe": "Platinum Pickaxe",
+  "item.wheeloftime.platinum_axe": "Platinum Axe",
+  "item.wheeloftime.platinum_shovel": "Platinum Shovel",
 
   "block.wheeloftime.chopping_block": "Chopping Block",
   "block.wheeloftime.entity_teleport_block": "Teleport Block (Entities)",

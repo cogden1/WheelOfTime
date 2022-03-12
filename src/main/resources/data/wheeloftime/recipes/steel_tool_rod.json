@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " O ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:steel_ingot"
+    },
+    "O": {
+      "item": "wheeloftime:organic_polymer"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:steel_tool_rod",
+    "count": 1
+  }
+}

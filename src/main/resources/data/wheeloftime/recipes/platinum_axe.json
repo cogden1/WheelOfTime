@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OR ",
+    "O# ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:steel_tool_rod"
+    },
+    "O": {
+      "item": "wheeloftime:platinum_ingot"
+    },
+    "R": {
+      "item": "wheeloftime:pristine_ruby"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:platinum_axe",
+    "count": 1
+  }
+}
