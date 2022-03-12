@@ -82,6 +82,21 @@
   "item.wheeloftime.platinum_axe": "Platinum Axe",
   "item.wheeloftime.platinum_shovel": "Platinum Shovel",
 
+  "item.wheeloftime.ruby_helmet": "Ruby Helmet",
+  "item.wheeloftime.ruby_pants": "Ruby Leggings",
+  "item.wheeloftime.ruby_chestplate": "Ruby Chestplate",
+  "item.wheeloftime.ruby_boots": "Ruby Boots",
+
+  "item.wheeloftime.platinum_helmet": "Platinum Helmet",
+  "item.wheeloftime.platinum_pants": "Platinum Leggings",
+  "item.wheeloftime.platinum_chestplate": "Platinum Chestplate",
+  "item.wheeloftime.platinum_boots": "Platinum Boots",
+
+  "item.wheeloftime.sapphire_helmet": "Sapphire Helmet",
+  "item.wheeloftime.sapphire_pants": "Sapphire Leggings",
+  "item.wheeloftime.sapphire_chestplate": "Sapphire Chestplate",
+  "item.wheeloftime.sapphire_boots": "Sapphire Boots",
+
   "block.wheeloftime.chopping_block": "Chopping Block",
   "block.wheeloftime.entity_teleport_block": "Teleport Block (Entities)",
   "block.wheeloftime.entity_teleport_block_north": "Teleport Block (Entities - North)",
