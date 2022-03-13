@@ -1,10 +1,14 @@
 package net.cogden1.wheeloftime.item;
 
 import net.cogden1.wheeloftime.WheelOfTime;
+import net.cogden1.wheeloftime.block.ModBlocks;
 import net.cogden1.wheeloftime.item.custom.*;
 import net.cogden1.wheeloftime.util.ModSoundEvents;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
+import net.minecraft.potion.Effect;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.Effects;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -58,128 +62,128 @@ public class ModItems {
 
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new SwordItem(ModItemTier.SAPPHIRE, 2, -2.4f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
             () -> new PickaxeItem(ModItemTier.SAPPHIRE, 0, -3f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
             () -> new AxeItem(ModItemTier.SAPPHIRE, 3, -3f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",
             () -> new ShovelItem(ModItemTier.SAPPHIRE, -1, -3f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
 
 
     public static final RegistryObject<Item> TURQUOISE_SWORD = ITEMS.register("turquoise_sword",
             () -> new SwordItem(ModItemTier.TURQUOISE, 2, -2.4f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> TURQUOISE_PICKAXE = ITEMS.register("turquoise_pickaxe",
             () -> new PickaxeItem(ModItemTier.TURQUOISE, 0, -3f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> TURQUOISE_AXE = ITEMS.register("turquoise_axe",
             () -> new AxeItem(ModItemTier.TURQUOISE, 3, -3f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> TURQUOISE_SHOVEL = ITEMS.register("turquoise_shovel",
             () -> new ShovelItem(ModItemTier.TURQUOISE, -1, -3f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
 
 
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",
             () -> new SwordItem(ModItemTier.RUBY, 2, -2.4f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe",
             () -> new PickaxeItem(ModItemTier.RUBY, 0, -3f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> RUBY_AXE = ITEMS.register("ruby_axe",
             () -> new AxeItem(ModItemTier.RUBY, 3, -3f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel",
             () -> new ShovelItem(ModItemTier.RUBY, -1, -3f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
 
 
     public static final RegistryObject<Item> PLATINUM_SWORD = ITEMS.register("platinum_sword",
             () -> new SwordItem(ModItemTier.PLATINUM, 2, -2.4f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> PLATINUM_PICKAXE = ITEMS.register("platinum_pickaxe",
             () -> new PickaxeItem(ModItemTier.PLATINUM, 0, -3f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> PLATINUM_AXE = ITEMS.register("platinum_axe",
             () -> new AxeItem(ModItemTier.PLATINUM, 3, -3f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> PLATINUM_SHOVEL = ITEMS.register("platinum_shovel",
             () -> new ShovelItem(ModItemTier.PLATINUM, -1, -3f,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
 
 
     //armor
     public static final RegistryObject<Item> PLATINUM_HELMET = ITEMS.register("platinum_helmet",
             () -> new ArmorItem(ModArmorMaterial.PLATINUM, EquipmentSlotType.HEAD,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> PLATINUM_BOOTS = ITEMS.register("platinum_boots",
             () -> new ArmorItem(ModArmorMaterial.PLATINUM, EquipmentSlotType.FEET,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> PLATINUM_PANTS = ITEMS.register("platinum_pants",
             () -> new ArmorItem(ModArmorMaterial.PLATINUM, EquipmentSlotType.LEGS,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> PLATINUM_CHESTPLATE = ITEMS.register("platinum_chestplate",
             () -> new ArmorItem(ModArmorMaterial.PLATINUM, EquipmentSlotType.CHEST,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
 
 
     public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
             () -> new ArmorItem(ModArmorMaterial.SAPPHIRE, EquipmentSlotType.HEAD,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
             () -> new ArmorItem(ModArmorMaterial.SAPPHIRE, EquipmentSlotType.FEET,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> SAPPHIRE_PANTS = ITEMS.register("sapphire_pants",
             () -> new ArmorItem(ModArmorMaterial.SAPPHIRE, EquipmentSlotType.LEGS,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
             () -> new ArmorItem(ModArmorMaterial.SAPPHIRE, EquipmentSlotType.CHEST,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
 
 
     public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
             () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.HEAD,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
             () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.FEET,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> RUBY_PANTS = ITEMS.register("ruby_pants",
             () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.LEGS,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
             () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.CHEST,
-                    new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
 
 
@@ -196,6 +200,13 @@ public class ModItems {
 
     public static final RegistryObject<Item> CRYSTAL_PAIN = ITEMS.register("crystal_pain",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> GROUND_DURIAN = ITEMS.register("ground_durian",
+            () -> new BlockItem(ModBlocks.GROUND_DURIAN.get(),
+                    new Item.Properties().food(new Food.Builder().nutrition(2).saturationMod(4f)
+                            .effect(()-> new EffectInstance(Effects.POISON,40),1f)
+                                    .build())
+                    .tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     //Gems
     public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst",

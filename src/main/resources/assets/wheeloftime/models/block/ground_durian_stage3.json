@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "wheeloftime:block/ground_durian_stage3"
+  }
+}

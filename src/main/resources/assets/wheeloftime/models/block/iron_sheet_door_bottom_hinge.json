@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_rh",
+  "textures": {
+    "top": "wheeloftime:block/iron_sheet_door_top",
+    "bottom": "wheeloftime:block/iron_sheet_door_bottom"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:copper_sheet_block"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:copper_sheet_trapdoor",
+    "count": 3
+  }
+}

@@ -324,6 +324,50 @@ public class ModBlocks {
             () -> new SlabBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
+    public static final RegistryObject<Block> LEAD_SHEET_DOOR = registerBlock("lead_sheet_door",
+            () -> new DoorBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f).noOcclusion()));
+
+    public static final RegistryObject<Block> LEAD_SHEET_TRAPDOOR = registerBlock("lead_sheet_trapdoor",
+            () -> new TrapDoorBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f).noOcclusion()));
+
+    public static final RegistryObject<Block> TIN_SHEET_DOOR = registerBlock("tin_sheet_door",
+            () -> new DoorBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f).noOcclusion()));
+
+    public static final RegistryObject<Block> TIN_SHEET_TRAPDOOR = registerBlock("tin_sheet_trapdoor",
+            () -> new TrapDoorBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f).noOcclusion()));
+
+    public static final RegistryObject<Block> GOLD_SHEET_DOOR = registerBlock("gold_sheet_door",
+            () -> new DoorBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f).noOcclusion()));
+
+    public static final RegistryObject<Block> GOLD_SHEET_TRAPDOOR = registerBlock("gold_sheet_trapdoor",
+            () -> new TrapDoorBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f).noOcclusion()));
+
+    public static final RegistryObject<Block> IRON_SHEET_DOOR = registerBlock("iron_sheet_door",
+            () -> new DoorBlock(AbstractBlock.Properties.of(Material.METAL).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f).noOcclusion()));
+
+    public static final RegistryObject<Block> IRON_SHEET_TRAPDOOR = registerBlock("iron_sheet_trapdoor",
+            () -> new TrapDoorBlock(AbstractBlock.Properties.of(Material.METAL).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f).noOcclusion()));
+
+    public static final RegistryObject<Block> COPPER_SHEET_DOOR = registerBlock("copper_sheet_door",
+            () -> new DoorBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f).noOcclusion()));
+
+    public static final RegistryObject<Block> COPPER_SHEET_TRAPDOOR = registerBlock("copper_sheet_trapdoor",
+            () -> new TrapDoorBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f).noOcclusion()));
+
+
+    //crops
+    public static final RegistryObject<Block> GROUND_DURIAN = BLOCKS.register("ground_durian_crop",
+            ()-> new GroundDurianBlock(AbstractBlock.Properties.of(Material.PLANT).noCollission()));
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)

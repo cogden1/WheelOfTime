@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "wheeloftime:item/iron_sheet_door"
+  }
+}
