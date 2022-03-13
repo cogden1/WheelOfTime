@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "#E ",
+    "E# "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "E": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:ground_durian"
+  }
+}
