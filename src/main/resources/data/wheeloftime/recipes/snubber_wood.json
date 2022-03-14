@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "## ",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:snubber_log"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:snubber_wood",
+    "count": 3
+  }
+}

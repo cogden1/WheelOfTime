@@ -365,6 +365,23 @@ public class ModBlocks {
                     requiresCorrectToolForDrops().strength(2f).noOcclusion()));
 
 
+    //Wood
+    public static final RegistryObject<Block> SNUBBER_LOG = registerBlock("snubber_log",
+            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+
+    public static final RegistryObject<Block> SNUBBER_WOOD = registerBlock("snubber_wood",
+            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+
+    public static final RegistryObject<Block> STRIPPED_SNUBBER_LOG = registerBlock("stripped_snubber_log",
+            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+
+    public static final RegistryObject<Block> STRIPPED_SNUBBER_WOOD = registerBlock("stripped_snubber_wood",
+            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+
+    public static final RegistryObject<Block> SNUBBER_PLANKS = registerBlock("snubber_planks",
+            () -> new Block(AbstractBlock.Properties.of(Material.WOOD)));
+
+
     //crops
     public static final RegistryObject<Block> GROUND_DURIAN = BLOCKS.register("ground_durian_crop",
             ()-> new GroundDurianBlock(AbstractBlock.Properties.of(Material.PLANT).noCollission()));

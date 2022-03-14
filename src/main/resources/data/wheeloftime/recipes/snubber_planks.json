@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:snubber_log"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:snubber_planks",
+    "count": 4
+  }
+}

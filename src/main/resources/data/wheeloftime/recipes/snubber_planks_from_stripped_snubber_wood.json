@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheeloftime:stripped_snubber_wood"
+    }
+  ],
+  "result": {
+    "item": "wheeloftime:snubber_planks",
+    "count": 4
+  }
+}

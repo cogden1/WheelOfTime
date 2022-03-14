@@ -206,7 +206,13 @@
   "block.wheeloftime.lead_sheet_fence_gate": "Lead Sheet Fence Gate",
   "block.wheeloftime.copper_sheet_fence": "Copper Sheet Fence",
   "block.wheeloftime.copper_sheet_fence_gate": "Copper Sheet Fence Gate",
+
   "block.wheeloftime.ground_durian_crop": "Ground Durian",
+  "block.wheeloftime.snubber_log": "Snubber Log",
+  "block.wheeloftime.snubber_wood": "Snubber Wood",
+  "block.wheeloftime.stripped_snubber_log": "Stripped Snubber Log",
+  "block.wheeloftime.stripped_snubber_wood": "Stripped Snubber Wood",
+  "block.wheeloftime.snubber_planks": "Snubber Planks",
 
   "item.wheeloftime.lightning_caller": "Lightning Caller",
 

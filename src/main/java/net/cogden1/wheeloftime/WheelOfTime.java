@@ -1,5 +1,6 @@
 package net.cogden1.wheeloftime;
 
+import com.google.common.collect.ImmutableMap;
 import net.cogden1.wheeloftime.block.ModBlocks;
 import net.cogden1.wheeloftime.item.ModItems;
 import net.cogden1.wheeloftime.util.ModSoundEvents;
@@ -7,6 +8,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.item.AxeItem;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -55,9 +57,12 @@ public class WheelOfTime
 
     private void setup(final FMLCommonSetupEvent event)
     {
-        // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        event.enqueueWork(()->{
+            AxeItem.STRIPABLES =
+                    new ImmutableMap.Builder<Block,Block>().putAll(AxeItem.STRIPABLES)
+                            .put(ModBlocks.SNUBBER_LOG.get(),ModBlocks.STRIPPED_SNUBBER_LOG.get())
+                            .put(ModBlocks.SNUBBER_WOOD.get(),ModBlocks.STRIPPED_SNUBBER_WOOD.get()).build();
+        });
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) 

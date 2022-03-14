@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "wheeloftime:block/snubber_log",
+    "side": "wheeloftime:block/snubber_log"
+  }
+}

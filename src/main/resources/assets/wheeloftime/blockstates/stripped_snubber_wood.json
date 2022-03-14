@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wheeloftime:block/stripped_snubber_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "wheeloftime:block/stripped_snubber_wood"
+    },
+    "axis=z": {
+      "model": "wheeloftime:block/stripped_snubber_wood",
+      "x": 90
+    }
+  }
+}
