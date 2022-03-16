@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wheeloftime:block/snubber_slab"
+    },
+    "type=double": {
+      "model": "wheeloftime:block/snubber_block"
+    },
+    "type=top": {
+      "model": "wheeloftime:block/snubber_slab_top"
+    }
+  }
+}

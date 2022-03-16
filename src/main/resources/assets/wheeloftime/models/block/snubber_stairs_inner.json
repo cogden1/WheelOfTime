@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "wheeloftime:block/snubber_planks",
+    "top": "wheeloftime:block/snubber_planks",
+    "side": "wheeloftime:block/snubber_planks"
+  }
+}

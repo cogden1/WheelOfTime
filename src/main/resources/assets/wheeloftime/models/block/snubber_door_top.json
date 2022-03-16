@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "wheeloftime:block/snubber_door_top",
+    "bottom": "wheeloftime:block/snubber_door_bottom"
+  }
+}

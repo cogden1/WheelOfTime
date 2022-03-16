@@ -218,6 +218,25 @@ public class ModBlocks {
             () -> new ElevatorBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
+
+    //Wood
+    public static final RegistryObject<Block> SNUBBER_LOG = registerBlock("snubber_log",
+            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+
+    public static final RegistryObject<Block> SNUBBER_WOOD = registerBlock("snubber_wood",
+            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+
+    public static final RegistryObject<Block> STRIPPED_SNUBBER_LOG = registerBlock("stripped_snubber_log",
+            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+
+    public static final RegistryObject<Block> STRIPPED_SNUBBER_WOOD = registerBlock("stripped_snubber_wood",
+            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+
+    public static final RegistryObject<Block> SNUBBER_PLANKS = registerBlock("snubber_planks",
+            () -> new Block(AbstractBlock.Properties.of(Material.WOOD)));
+
+
+
     //decor
     public static final RegistryObject<Block> TIN_SHEET_BLOCK = registerBlock("tin_sheet_block",
             () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
@@ -264,6 +283,11 @@ public class ModBlocks {
                     AbstractBlock.Properties.of(Material.METAL).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                             requiresCorrectToolForDrops().strength(2f)));
 
+    public static final RegistryObject<Block> SNUBBER_STAIRS = registerBlock("snubber_stairs",
+            () -> new StairsBlock(() -> SNUBBER_PLANKS.get().defaultBlockState(),
+                    AbstractBlock.Properties.of(Material.WOOD).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                            requiresCorrectToolForDrops().strength(2f)));
+
     public static final RegistryObject<Block> TIN_SHEET_FENCE = registerBlock("tin_sheet_fence",
             () -> new FenceBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
@@ -304,6 +328,14 @@ public class ModBlocks {
             () -> new FenceGateBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
+    public static final RegistryObject<Block> SNUBBER_FENCE = registerBlock("snubber_fence",
+            () -> new FenceBlock(AbstractBlock.Properties.of(Material.WOOD).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> SNUBBER_FENCE_GATE = registerBlock("snubber_fence_gate",
+            () -> new FenceGateBlock(AbstractBlock.Properties.of(Material.WOOD).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
     public static final RegistryObject<Block> TIN_SHEET_SLAB = registerBlock("tin_sheet_slab",
             () -> new SlabBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
@@ -322,6 +354,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> LEAD_SHEET_SLAB = registerBlock("lead_sheet_slab",
             () -> new SlabBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
+
+    public static final RegistryObject<Block> SNUBBER_SLAB = registerBlock("snubber_slab",
+            () -> new SlabBlock(AbstractBlock.Properties.of(Material.WOOD).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> LEAD_SHEET_DOOR = registerBlock("lead_sheet_door",
@@ -364,22 +400,16 @@ public class ModBlocks {
             () -> new TrapDoorBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f).noOcclusion()));
 
+    public static final RegistryObject<Block> SNUBBER_DOOR = registerBlock("snubber_door",
+            () -> new DoorBlock(AbstractBlock.Properties.of(Material.WOOD).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f).noOcclusion()));
 
-    //Wood
-    public static final RegistryObject<Block> SNUBBER_LOG = registerBlock("snubber_log",
-            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+    public static final RegistryObject<Block> SNUBBER_TRAPDOOR = registerBlock("snubber_trapdoor",
+            () -> new TrapDoorBlock(AbstractBlock.Properties.of(Material.WOOD).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f).noOcclusion()));
 
-    public static final RegistryObject<Block> SNUBBER_WOOD = registerBlock("snubber_wood",
-            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
 
-    public static final RegistryObject<Block> STRIPPED_SNUBBER_LOG = registerBlock("stripped_snubber_log",
-            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
 
-    public static final RegistryObject<Block> STRIPPED_SNUBBER_WOOD = registerBlock("stripped_snubber_wood",
-            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
-
-    public static final RegistryObject<Block> SNUBBER_PLANKS = registerBlock("snubber_planks",
-            () -> new Block(AbstractBlock.Properties.of(Material.WOOD)));
 
 
     //crops

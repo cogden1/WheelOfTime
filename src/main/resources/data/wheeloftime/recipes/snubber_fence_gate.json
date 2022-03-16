@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "S#S",
+    "S#S"
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:snubber_plank"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:snubber_fence_gate",
+    "count": 2
+  }
+}

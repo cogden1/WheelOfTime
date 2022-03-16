@@ -177,24 +177,28 @@
   "block.wheeloftime.iron_sheet_stairs": "Iron Sheet Stairs",
   "block.wheeloftime.copper_sheet_stairs": "Copper Sheet Stairs",
   "block.wheeloftime.lead_sheet_stairs": "Lead Sheet Stairs",
+  "block.wheeloftime.snubber_stairs": "Snubber Stairs",
 
   "block.wheeloftime.tin_sheet_slab": "Tin Sheet Slab",
   "block.wheeloftime.gold_sheet_slab": "Gold Sheet Slab",
   "block.wheeloftime.iron_sheet_slab": "Iron Sheet Slab",
   "block.wheeloftime.copper_sheet_slab": "Copper Sheet Slab",
   "block.wheeloftime.lead_sheet_slab": "Lead Sheet Slab",
+  "block.wheeloftime.snubber_slab": "Snubber Slab",
 
   "block.wheeloftime.tin_sheet_door": "Tin Sheet Door",
   "block.wheeloftime.gold_sheet_door": "Gold Sheet Door",
   "block.wheeloftime.iron_sheet_door": "Iron Sheet Door",
   "block.wheeloftime.copper_sheet_door": "Copper Sheet Door",
   "block.wheeloftime.lead_sheet_door": "Lead Sheet Door",
+  "block.wheeloftime.snubber_door": "Snubber Door",
 
   "block.wheeloftime.tin_sheet_trapdoor": "Tin Sheet Trapdoor",
   "block.wheeloftime.gold_sheet_trapdoor": "Gold Sheet Trapdoor",
   "block.wheeloftime.iron_sheet_trapdoor": "Iron Sheet Trapdoor",
   "block.wheeloftime.copper_sheet_trapdoor": "Copper Sheet Trapdoor",
   "block.wheeloftime.lead_sheet_trapdoor": "Lead Sheet Trapdoor",
+  "block.wheeloftime.snubber_trapdoor": "Snubber Trapdoor",
 
   "block.wheeloftime.tin_sheet_fence": "Tin Sheet Fence",
   "block.wheeloftime.tin_sheet_fence_gate": "Tin Sheet Fence Gate",
@@ -206,6 +210,8 @@
   "block.wheeloftime.lead_sheet_fence_gate": "Lead Sheet Fence Gate",
   "block.wheeloftime.copper_sheet_fence": "Copper Sheet Fence",
   "block.wheeloftime.copper_sheet_fence_gate": "Copper Sheet Fence Gate",
+  "block.wheeloftime.snubber_fence": "Snubber Fence",
+  "block.wheeloftime.snubber_fence_gate": "Snubber Fence Gate",
 
   "block.wheeloftime.ground_durian_crop": "Ground Durian",
   "block.wheeloftime.snubber_log": "Snubber Log",

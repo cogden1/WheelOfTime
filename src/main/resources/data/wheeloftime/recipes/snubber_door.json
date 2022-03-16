@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "## ",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "wheeloftime:snubber_planks"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:snubber_door",
+    "count": 3
+  }
+}
