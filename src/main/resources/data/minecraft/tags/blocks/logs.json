@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "wheeloftime:snubber_log",
+    "wheeloftime:snubber_wood",
+    "wheeloftime:stripped_snubber_log",
+    "wheeloftime:stripped_snubber_wood"
+
+  ]
+}

@@ -80,8 +80,11 @@ public class WheelOfTime
             RenderTypeLookup.setRenderLayer(ModBlocks.GOLD_SHEET_DOOR.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.SNUBBER_TRAPDOOR.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.SNUBBER_DOOR.get(), RenderType.cutout());
-
+            RenderTypeLookup.setRenderLayer(ModBlocks.SNUBBER_LEAVES.get(), RenderType.cutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.SNUBBER_SAPLING.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.GROUND_DURIAN.get(), RenderType.cutout());
+
+
         });
        
     }

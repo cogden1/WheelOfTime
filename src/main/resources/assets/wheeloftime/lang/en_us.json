@@ -219,6 +219,8 @@
   "block.wheeloftime.stripped_snubber_log": "Stripped Snubber Log",
   "block.wheeloftime.stripped_snubber_wood": "Stripped Snubber Wood",
   "block.wheeloftime.snubber_planks": "Snubber Planks",
+  "block.wheeloftime.snubber_leaves": "Snubber Leaves",
+  "block.wheeloftime.snubber_sapling": "Snubber Sapling",
 
   "item.wheeloftime.lightning_caller": "Lightning Caller",
 
@@ -259,6 +261,13 @@
   "item.wheeloftime.haste_caller_1": "Haste Caller II",
   "item.wheeloftime.haste_caller_2": "Haste Caller III",
   "item.wheeloftime.haste_caller_x": "Haste Caller X",
+
+  "item.wheeloftime.xp_caller": "XP Caller",
+  "item.wheeloftime.xp_caller_1": "XP Caller II",
+  "item.wheeloftime.xp_caller_2": "XP Caller III",
+  "item.wheeloftime.xp_caller_x": "XP Caller X",
+
+  "item.wheeloftime.super_saddle": "Super Saddle",
 
   "itemGroup.wheelOfTimeTab": "Wheel of Time",
   "itemGroup.wheelOfTimeCallerTab": "WoT Callers"

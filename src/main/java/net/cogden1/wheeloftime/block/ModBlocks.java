@@ -2,10 +2,13 @@ package net.cogden1.wheeloftime.block;
 
 import net.cogden1.wheeloftime.WheelOfTime;
 import net.cogden1.wheeloftime.block.custom.*;
+import net.cogden1.wheeloftime.block.custom.trees.SnubberTree;
 import net.cogden1.wheeloftime.item.ModItemGroup;
 import net.cogden1.wheeloftime.item.ModItems;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.trees.OakTree;
+import net.minecraft.block.trees.Tree;
 import net.minecraft.client.particle.FireworkParticle;
 import net.minecraft.client.particle.LavaParticle;
 import net.minecraft.client.particle.Particle;
@@ -234,6 +237,14 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SNUBBER_PLANKS = registerBlock("snubber_planks",
             () -> new Block(AbstractBlock.Properties.of(Material.WOOD)));
+
+    public static final RegistryObject<Block> SNUBBER_LEAVES = registerBlock("snubber_leaves",
+            () -> new LeavesBlock(AbstractBlock.Properties.of(Material.LEAVES).strength(.25f)
+                    .noOcclusion().sound(SoundType.GRASS)));
+
+    public static final RegistryObject<Block> SNUBBER_SAPLING = registerBlock("snubber_sapling",
+            () -> new SaplingBlock(new SnubberTree(), AbstractBlock.Properties.of(Material.PLANT)
+                    .noCollission().sound(SoundType.BAMBOO_SAPLING)));
 
 
 

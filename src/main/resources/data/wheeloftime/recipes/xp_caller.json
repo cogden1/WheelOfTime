@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "TCT",
+    " T "
+  ],
+  "key": {
+    "T": {
+      "item": "wheeloftime:amethyst"
+    },
+    "C": {
+      "item": "minecraft:ground_durian"
+    }
+  },
+  "result": {
+    "item": "wheeloftime:xp_caller"
+  }
+}
