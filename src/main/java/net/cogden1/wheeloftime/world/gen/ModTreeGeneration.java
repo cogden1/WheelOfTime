@@ -28,7 +28,6 @@ public class ModTreeGeneration {
         Set<BiomeDictionary.Type> types = BiomeDictionary.getTypes(key);
 
         if (types.contains(BiomeDictionary.Type.FOREST) ||
-                types.contains(BiomeDictionary.Type.PLAINS) ||
                 types.contains(BiomeDictionary.Type.JUNGLE))
         {
             List<Supplier<ConfiguredFeature<?, ?>>> base =
