@@ -123,7 +123,7 @@ public class ModItems {
                     new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> PLATINUM_AXE = ITEMS.register("platinum_axe",
-            () -> new AxeItem(ModItemTier.PLATINUM, 4, -2f,
+            () -> new AxeItem(ModItemTier.PLATINUM, 4, -2.6f,
                     new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
     public static final RegistryObject<Item> PLATINUM_SHOVEL = ITEMS.register("platinum_shovel",
