@@ -24,9 +24,13 @@ public enum ModArmorMaterial implements IArmorMaterial {
             SoundEvents.ARMOR_EQUIP_DIAMOND, 4.0F,
             0.2F, () -> {return Ingredient.of(ModItems.PRISTINE_RUBY.get());}),
 
-    PLATINUM("platinum", 53, new int[]{3, 6, 8, 3}, 22,
+    TURTANIUM("turtanium", 34, new int[]{3, 6, 8, 3}, 19,
+            SoundEvents.ARMOR_EQUIP_TURTLE, 4.0F,
+            0.3F, () -> {return Ingredient.of(ModItems.TURTANIUM_INGOT.get());}),
+
+    PLATINUM("platinum", 53, new int[]{4, 7, 9, 4}, 22,
             SoundEvents.ARMOR_EQUIP_IRON, 5.0F,
-            0.4F, () -> {return Ingredient.of(ModBlocks.PLATINUM_BLOCK.get());})
+            0.5F, () -> {return Ingredient.of(ModBlocks.PLATINUM_BLOCK.get());})
 
     ;
 

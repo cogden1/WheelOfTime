@@ -151,6 +151,24 @@ public class ModItems {
 
 
 
+    public static final RegistryObject<Item> TURTANIUM_HELMET = ITEMS.register("turtanium_helmet",
+            () -> new ArmorItem(ModArmorMaterial.TURTANIUM, EquipmentSlotType.HEAD,
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> TURTANIUM_BOOTS = ITEMS.register("turtanium_boots",
+            () -> new ArmorItem(ModArmorMaterial.TURTANIUM, EquipmentSlotType.FEET,
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> TURTANIUM_PANTS = ITEMS.register("turtanium_pants",
+            () -> new ArmorItem(ModArmorMaterial.TURTANIUM, EquipmentSlotType.LEGS,
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+    public static final RegistryObject<Item> TURTANIUM_CHESTPLATE = ITEMS.register("turtanium_chestplate",
+            () -> new ArmorItem(ModArmorMaterial.TURTANIUM, EquipmentSlotType.CHEST,
+                    new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
+
+
     public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
             () -> new ArmorItem(ModArmorMaterial.SAPPHIRE, EquipmentSlotType.HEAD,
                     new Item.Properties().fireResistant().tab(ModItemGroup.WHEELOFTIME_GROUP)));
