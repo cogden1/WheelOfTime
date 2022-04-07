@@ -210,6 +210,9 @@ public class ModItems {
     public static final RegistryObject<Item> MERCURY = ITEMS.register("mercury",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 
+    public static final RegistryObject<Item> CAPACITOR = ITEMS.register("capacitor",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
+
     public static final RegistryObject<Item> ICEBURST_STONE = ITEMS.register("iceburst_stone",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WHEELOFTIME_GROUP)));
 

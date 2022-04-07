@@ -2,6 +2,7 @@ package net.cogden1.wheeloftime.block;
 
 import net.cogden1.wheeloftime.WheelOfTime;
 import net.cogden1.wheeloftime.block.custom.*;
+import net.cogden1.wheeloftime.block.custom.trees.FlowerTree;
 import net.cogden1.wheeloftime.block.custom.trees.SnubberTree;
 import net.cogden1.wheeloftime.item.ModItemGroup;
 import net.cogden1.wheeloftime.item.ModItems;
@@ -224,27 +225,41 @@ public class ModBlocks {
 
     //Wood
     public static final RegistryObject<Block> SNUBBER_LOG = registerBlock("snubber_log",
-            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2f).harvestTool(ToolType.AXE)));
 
     public static final RegistryObject<Block> SNUBBER_WOOD = registerBlock("snubber_wood",
-            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2f).harvestTool(ToolType.AXE)));
 
     public static final RegistryObject<Block> STRIPPED_SNUBBER_LOG = registerBlock("stripped_snubber_log",
-            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2f).harvestTool(ToolType.AXE)));
 
     public static final RegistryObject<Block> STRIPPED_SNUBBER_WOOD = registerBlock("stripped_snubber_wood",
-            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2f).harvestTool(ToolType.AXE)));
 
     public static final RegistryObject<Block> SNUBBER_PLANKS = registerBlock("snubber_planks",
-            () -> new Block(AbstractBlock.Properties.of(Material.WOOD)));
+            () -> new Block(AbstractBlock.Properties.of(Material.WOOD).strength(2f).harvestTool(ToolType.AXE)));
 
     public static final RegistryObject<Block> SNUBBER_LEAVES = registerBlock("snubber_leaves",
-            () -> new LeavesBlock(AbstractBlock.Properties.of(Material.LEAVES).strength(.25f)
+            () -> new LeavesBlock(AbstractBlock.Properties.of(Material.LEAVES).harvestTool(ToolType.HOE).strength(.25f)
                     .noOcclusion().sound(SoundType.GRASS)));
 
     public static final RegistryObject<Block> SNUBBER_SAPLING = registerBlock("snubber_sapling",
             () -> new SaplingBlock(new SnubberTree(), AbstractBlock.Properties.of(Material.PLANT)
                     .noCollission().sound(SoundType.BAMBOO_SAPLING)));
+
+
+
+
+    public static final RegistryObject<Block> PLANT_STEM = registerBlock("plant_stem",
+            () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
+
+    public static final RegistryObject<Block> PETAL_BLOCK = registerBlock("petal_block",
+            () -> new LeavesBlock(AbstractBlock.Properties.of(Material.LEAVES).harvestTool(ToolType.HOE).strength(.25f)
+                    .sound(SoundType.GRASS)));
+
+    public static final RegistryObject<Block> PLUG_PLANT = registerBlock("plug_plant",
+            () -> new SaplingBlock(new FlowerTree(), AbstractBlock.Properties.of(Material.PLANT)
+                    .noCollission().sound(SoundType.ANCIENT_DEBRIS)));
 
 
 

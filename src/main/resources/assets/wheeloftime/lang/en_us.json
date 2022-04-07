@@ -29,6 +29,7 @@
   "item.wheeloftime.turtanium_ingot": "Turtanium Ingot",
   "item.wheeloftime.steel_ingot": "Solid Steel Ingot",
   "item.wheeloftime.mercury": "Mercury",
+  "item.wheeloftime.capacitor": "Capacitor",
   "item.wheeloftime.organic_polymer": "Organic Polymer",
   "item.wheeloftime.iceburst_stone": "Iceburst Stone",
 
@@ -226,6 +227,10 @@
   "block.wheeloftime.snubber_planks": "Snubber Planks",
   "block.wheeloftime.snubber_leaves": "Snubber Leaves",
   "block.wheeloftime.snubber_sapling": "Snubber Sapling",
+
+  "block.wheeloftime.plant_stem": "Plant Stem",
+  "block.wheeloftime.petal_block": "Petal Block",
+  "block.wheeloftime.plug_plant": "Plug Plant",
 
   "item.wheeloftime.lightning_caller": "Lightning Caller",
 

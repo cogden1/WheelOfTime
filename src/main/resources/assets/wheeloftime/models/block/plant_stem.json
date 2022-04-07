@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "wheeloftime:block/plant_stem_top",
+    "side": "wheeloftime:block/plant_stem"
+  }
+}

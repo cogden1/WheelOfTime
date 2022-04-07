@@ -83,7 +83,7 @@ public class WheelOfTime
             RenderTypeLookup.setRenderLayer(ModBlocks.SNUBBER_LEAVES.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.SNUBBER_SAPLING.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.GROUND_DURIAN.get(), RenderType.cutout());
-
+            RenderTypeLookup.setRenderLayer(ModBlocks.PLUG_PLANT.get(), RenderType.cutout());
 
         });
        
