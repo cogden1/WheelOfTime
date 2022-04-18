@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "wheeloftime:block/picking_table_side",
+    "north": "wheeloftime:block/picking_table_side",
+    "south": "wheeloftime:block/picking_table_side",
+    "east": "wheeloftime:block/picking_table_side",
+    "west": "wheeloftime:block/picking_table_side",
+    "up": "wheeloftime:block/picking_table_top",
+    "down": "wheeloftime:block/picking_table_bottom"
+  }
+}

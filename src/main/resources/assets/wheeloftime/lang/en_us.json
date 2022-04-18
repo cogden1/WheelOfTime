@@ -112,6 +112,9 @@
   "block.wheeloftime.entity_teleport_block_east": "Teleport Block (Entities - East)",
   "block.wheeloftime.elevator_block": "Elevator Block (Entities)",
 
+  "block.wheeloftime.picking_table_block": "Picking Table",
+  "screen.wheeloftime.picking_table_screen": "Picking Table",
+
   "block.wheeloftime.amethyst_ore": "Amethyst Ore",
   "block.wheeloftime.amethyst_block": "Amethyst Block",
 

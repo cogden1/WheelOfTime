@@ -8,25 +8,15 @@ import net.cogden1.wheeloftime.item.ModItemGroup;
 import net.cogden1.wheeloftime.item.ModItems;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.trees.OakTree;
-import net.minecraft.block.trees.Tree;
-import net.minecraft.client.particle.FireworkParticle;
-import net.minecraft.client.particle.LavaParticle;
-import net.minecraft.client.particle.Particle;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.particles.IParticleData;
-import net.minecraft.particles.ParticleType;
-import net.minecraft.util.registry.Registry;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import org.lwjgl.system.CallbackI;
 
 import java.util.function.Supplier;
-import java.util.function.ToIntFunction;
 
 public class ModBlocks {
 
@@ -219,9 +209,14 @@ public class ModBlocks {
                     requiresCorrectToolForDrops().strength(2f)));
 
     public static final RegistryObject<Block> ELEVATOR_BLOCK = registerBlock("elevator_block",
-            () -> new ElevatorBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+            () -> new ElevatorBlock(AbstractBlock.Properties.of(Material.METAL).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));
 
+
+    //complex machines
+    public static final RegistryObject<Block> PICKING_TABLE_BLOCK = registerBlock("picking_table_block",
+            () -> new PickingTableBlock(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
+                    requiresCorrectToolForDrops().strength(2f)));
 
     //Wood
     public static final RegistryObject<Block> SNUBBER_LOG = registerBlock("snubber_log",
@@ -254,7 +249,7 @@ public class ModBlocks {
             () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.WOOD)));
 
     public static final RegistryObject<Block> PETAL_BLOCK = registerBlock("petal_block",
-            () -> new LeavesBlock(AbstractBlock.Properties.of(Material.LEAVES).harvestTool(ToolType.HOE).strength(.25f)
+            () -> new Block(AbstractBlock.Properties.of(Material.LEAVES).harvestTool(ToolType.HOE).strength(.25f)
                     .sound(SoundType.GRASS)));
 
     public static final RegistryObject<Block> PLUG_PLANT = registerBlock("plug_plant",
@@ -264,6 +259,8 @@ public class ModBlocks {
 
 
     //decor
+
+
     public static final RegistryObject<Block> TIN_SHEET_BLOCK = registerBlock("tin_sheet_block",
             () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).
                     requiresCorrectToolForDrops().strength(2f)));

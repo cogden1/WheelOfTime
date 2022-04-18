@@ -2,10 +2,14 @@ package net.cogden1.wheeloftime;
 
 import com.google.common.collect.ImmutableMap;
 import net.cogden1.wheeloftime.block.ModBlocks;
+import net.cogden1.wheeloftime.container.ModContainers;
+import net.cogden1.wheeloftime.crafting.recipe.ModRecipeTypes;
 import net.cogden1.wheeloftime.item.ModItems;
+import net.cogden1.wheeloftime.screen.PickingTableScreen;
+import net.cogden1.wheeloftime.tileentity.ModTileEntities;
 import net.cogden1.wheeloftime.util.ModSoundEvents;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.AxeItem;
@@ -40,6 +44,9 @@ public class WheelOfTime
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+        ModTileEntities.register(eventBus);
+        ModContainers.register(eventBus);
+        ModRecipeTypes.register(eventBus);
         ModSoundEvents.register(eventBus);
 
 
@@ -84,6 +91,9 @@ public class WheelOfTime
             RenderTypeLookup.setRenderLayer(ModBlocks.SNUBBER_SAPLING.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.GROUND_DURIAN.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.PLUG_PLANT.get(), RenderType.cutout());
+
+            ScreenManager.register(ModContainers.PICKING_TABLE_CONTAINER.get(),
+                    PickingTableScreen::new);
 
         });
        

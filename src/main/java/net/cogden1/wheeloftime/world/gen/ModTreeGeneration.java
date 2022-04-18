@@ -1,5 +1,6 @@
 package net.cogden1.wheeloftime.world.gen;
 
+import net.cogden1.wheeloftime.block.custom.trees.FlowerTree;
 import net.cogden1.wheeloftime.block.custom.trees.SnubberTree;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.registry.Registry;
@@ -22,6 +23,7 @@ public class ModTreeGeneration {
     public static void generateTrees(final BiomeLoadingEvent event) {
 
         SnubberTree snubberTree = new SnubberTree();
+        FlowerTree flowerTree = new FlowerTree();
         Random random = new Random();
 
         RegistryKey<Biome> key = RegistryKey.create(Registry.BIOME_REGISTRY, event.getName());
@@ -39,7 +41,17 @@ public class ModTreeGeneration {
                             new AtSurfaceWithExtraConfig(1,.1f,2))));
 
         }
+        if(types.contains(BiomeDictionary.Type.SAVANNA))
+        {
+            List<Supplier<ConfiguredFeature<?, ?>>> base =
+                    event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
 
+            base.add(() -> ModConfiguredFeatures.FLOWER
+                    .decorated(Features.Placements.HEIGHTMAP_SQUARE)
+                    .decorated(Placement.COUNT_EXTRA.configured(
+                            new AtSurfaceWithExtraConfig(1,.1f,2)
+                    )));
+        }
     }
 
 }

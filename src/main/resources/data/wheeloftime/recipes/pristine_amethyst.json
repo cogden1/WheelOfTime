@@ -1,0 +1,14 @@
+{
+  "type": "wheeloftime:lightning",
+  "ingredients": [
+    {
+      "item": "wheeloftime:amethyst"
+    },
+    {
+      "item": "wheeloftime:amethyst"
+    }
+  ],
+  "output": {
+    "item": "wheeloftime:pristine_amethyst"
+  }
+}
