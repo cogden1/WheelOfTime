@@ -112,15 +112,9 @@ public class PickingTableTile extends TileEntity implements ITickableTileEntity 
     }
 
     private void craftTheItem(ItemStack output) {
-        //if(progress >= WORK_TIME) {
             itemHandler.extractItem(0, 1, false);
             itemHandler.extractItem(1, 1, false);
             itemHandler.insertItem(1, output, false);
-            //progress = 0;
-       // }
-        //else{
-            //progress++;
-        //}
     }
 
 
