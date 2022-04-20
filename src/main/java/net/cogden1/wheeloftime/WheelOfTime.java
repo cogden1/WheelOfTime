@@ -8,6 +8,7 @@ import net.cogden1.wheeloftime.item.ModItems;
 import net.cogden1.wheeloftime.screen.PickingTableScreen;
 import net.cogden1.wheeloftime.tileentity.ModTileEntities;
 import net.cogden1.wheeloftime.util.ModSoundEvents;
+import net.cogden1.wheeloftime.world.structure.ModStructures;
 import net.minecraft.block.Block;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.renderer.RenderType;
@@ -48,6 +49,7 @@ public class WheelOfTime
         ModContainers.register(eventBus);
         ModRecipeTypes.register(eventBus);
         ModSoundEvents.register(eventBus);
+        ModStructures.register(eventBus);
 
 
         eventBus.addListener(this::setup);
@@ -69,6 +71,7 @@ public class WheelOfTime
                     new ImmutableMap.Builder<Block,Block>().putAll(AxeItem.STRIPABLES)
                             .put(ModBlocks.SNUBBER_LOG.get(),ModBlocks.STRIPPED_SNUBBER_LOG.get())
                             .put(ModBlocks.SNUBBER_WOOD.get(),ModBlocks.STRIPPED_SNUBBER_WOOD.get()).build();
+            //ModStructures.setupStructures();
         });
     }
 
